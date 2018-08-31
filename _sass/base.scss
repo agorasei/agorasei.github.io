@@ -1,0 +1,13 @@
+$font-family: 'Source Sans Pro', sans-serif !default;
+$font-light: 300;
+$font-regular: 400;
+$font-heavy: 900;
+$text-color: #444;
+
+$line-height: 1.6em;
+
+html, body {
+  font: $font-regular 1rem $font-family;
+  line-height: $line-height;
+  color: $text-color;
+}
