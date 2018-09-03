@@ -1,3 +1,9 @@
+.progress {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+}
+
 .drops {
 
 	.card {
@@ -6,6 +12,43 @@
 			font-weight: 700;
 			margin: 0 0 1rem 0;
 			color: #232323;
+		}
+	}
+
+	.headline {
+		position: relative;
+		text-align: center;
+
+		.headline-tag {
+			@extend .news-tag;
+		}
+
+		.headline-complement {
+			text-align: center;
+			padding-top: 36px;
+			font-size: .875rem;
+
+			.material-icons {
+				vertical-align: middle;
+				padding-right: 8px;
+
+				&:nth-child(2) {
+					padding-left: 36px;
+				}
+			}
+		}
+
+		.headline-update {
+			font-size: .875rem;
+			font-style: italic;
+			margin-top: 2rem;
+		}
+
+		.headline-photoCredit {
+			position: absolute;
+			top: .5rem;
+			left: .5rem;
+			font-size: .8rem;
 		}
 	}
 	
@@ -23,7 +66,22 @@
 
 // Desktop and large devices
 @media (min-width: 992px) {
+
+	.progress {
+		top: 0;
+		left: 0;
+		z-index: 9999;
+	}
+
+	.row .col-headline {
+		padding: 0;
+		margin: 0;
+	}
+
 	.headline {
+		margin: 0;
+		height: calc(100vh - 64px);
+
 		.headline-title {
 			font-size: 3.125rem;
 			font-weight: 900;
