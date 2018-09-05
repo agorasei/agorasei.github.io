@@ -10,3 +10,101 @@
 	display: inline-block;
 	margin-top: 3.5rem;
 }
+
+#mainContent {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.homeNews {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 10px;
+	left: 100vw;
+
+	.homeNews-news {
+		width: 70vw;
+		height: calc(100vh - 241px);
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+		overflow: hidden;
+		position: relative;
+		-webkit-transform: scale(0.9) translateY(0);
+		transform: scale(0.9) translateY(0);
+		opacity: .8;
+		cursor: pointer;
+		pointer-events: none;
+		transition: 1s;
+		box-sizing: border-box;
+
+		&.active {
+			-webkit-transform: scale(1) translateY(0);
+			transform: scale(1) translateY(0);
+			opacity: 1;
+		}
+
+		.col {
+			display: flex;
+			align-items: stretch;
+			justify-content: center;
+		}
+	}
+}
+
+.news {
+	display: flex;
+	align-items: center;
+	
+	.news-title {
+
+	}
+
+	.news-complement {
+		text-align: center;
+		padding-top: 1.5rem;
+		font-size: .875rem;
+
+		.material-icons {
+			vertical-align: middle;
+			padding-right: 8px;
+
+			&:nth-child(2) {
+				padding-left: 2.2rem;
+			}
+		}
+	}
+
+	.news-photoCredit {
+		position: absolute;
+		top: .5rem;
+		left: .5rem;
+		font-size: .8rem;
+	}
+
+	.btn {
+		margin-top: 1.5rem;
+		width: 15rem;
+	}
+}
+
+// Desktop and large devices
+@media (min-width: 992px) {
+
+	.news {
+
+		.news-title {
+			margin-top: 1.5rem;
+			font-size: 2rem;
+			font-weight: 900;
+			line-height: 1.3em;
+			text-align: center;
+		}
+	}
+}
