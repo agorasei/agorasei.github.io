@@ -9,8 +9,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
 					even 					= sliderLength / 2,
 					odd 					= (sliderLength + 1) / 2;
 
-					console.log("slider length: ", sliderLength, " even: ", even, " odd:", odd);
-
 		sliderItems[0].classList.add("active");
 		sliderItems[1].classList.add('next');
 
@@ -18,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
 			el.addEventListener("click", function() {
 				const sliderContainer = document.querySelector('.newsCarousel');
 
-				let position = (((55 * i) + (15 * (i - 1))) * -1);
-			  
+				let position = (((70 * i) + (10 * (i - 1))) * -1);
+			  //debugger;
 			  sliderContainer.style.transform = 'translateX(' + position + 'vw)';
 			  
 			  el.classList.remove('prev', 'next');

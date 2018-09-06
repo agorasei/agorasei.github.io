@@ -82,9 +82,8 @@
 	#detailContent {
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-		//overflow-x: hidden;
+		justify-content: flex-start;
+		overflow: hidden;
 	}
 
 	.drops-mobile-carousel {
@@ -92,34 +91,63 @@
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		left: 85vw;
+		top: 10px;
+		transform: translateX(10vw);
+		transition: 1s;
 
 		.drop {
-			width: 90vw;
-			height: calc(100vh - 70px);
+			width: 80vw;
+			height: calc(100vh - 80px);
 			display: flex;
 			align-items: stretch;
 			justify-content: center;
 			overflow: hidden;
 			position: relative;
-			-webkit-transform: scale(0.9) translateY(0);
-			transform: scale(0.9) translateY(0);
-			opacity: .8;
+			-webkit-transform: scale(0.6) translateY(0);
+			transform: scale(0.6) translateY(0);
+			opacity: 0;
 			cursor: pointer;
 			pointer-events: none;
 			transition: 1s;
 			box-sizing: border-box;
+			z-index: 1;
 
 			&.active {
 				-webkit-transform: scale(1) translateY(0);
 				transform: scale(1) translateY(0);
 				opacity: 1;
+				pointer-events: auto;
+			}
+
+			&.prev,
+			&.next {
+				z-index: 2;
+				pointer-events: auto;
+				-webkit-transform: scale(0.9) translateY(0);
+				transform: scale(0.9) translateY(0);
+				opacity: .8;
 			}
 
 			.col {
 				display: flex;
 				align-items: stretch;
 				justify-content: center;
+			}
+
+			.headline-title {
+				margin-top: 1rem;
+				font-size: 1.625rem;
+				text-align: left;
+			}
+
+			.headline-complement {
+				padding-top: 1rem;
+
+				.material-icons {
+					&:nth-child(2) {
+						padding-left: 1.5rem;
+					}
+				}
 			}
 		}
 	}
