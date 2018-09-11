@@ -84,50 +84,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 	}
 
-	function bindNewsNavigationLeft() {
-		const previous = document.querySelector(".newsNavigation-previous a");
-
-		previous.classList.remove("disabled");
-
-		previous.addEventListener("click", function(e) {
-			e.preventDefault();
-		  document.querySelector('.active').previousElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-		});
-	}
-
-	function unbindNewsNavigationLeft() {
-		const previous = document.querySelector(".newsNavigation-previous a");
-
-		previous.classList.add("disabled");
-
-		previous.addEventListener("click", function(e) {
-			e.preventDefault();
-			e.stopPropagation();
-		});
-	}
-
-	function bindNewsNavigationRight() {
-		const next = document.querySelector(".newsNavigation-next a");
-
-		next.classList.remove("disabled");
-
-		next.addEventListener("click", function(e) {
-			e.preventDefault();
-		  document.querySelector('.active').nextElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-		});
-	}
-
-	function unbindNewsNavigationRight() {
-		const next = document.querySelector(".newsNavigation-next a");
-
-		next.classList.add("disabled");
-
-		next.addEventListener("click", function(e) {
-			e.preventDefault();
-			e.stopPropagation();
-		});
-	}
-
 	function initUpdateReadingScroll(index) {
 
 		const progress 						= document.querySelector(".progress"),
