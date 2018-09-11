@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
 				const sliderContainer = document.querySelector('.newsCarousel');
 
 				let position = (((70 * i) + (10 * (i - 1))) * -1);
-			  //debugger;
 			  sliderContainer.style.transform = 'translateX(' + position + 'vw)';
 			  
 			  el.classList.remove('prev', 'next');
@@ -37,15 +36,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 			  if (el.previousElementSibling) el.previousElementSibling.classList.add('prev');
 			  if (el.nextElementSibling) el.nextElementSibling.classList.add('next');
-
-			  //debugger;
-			  if (i == 0) {
-			  	unbindNewsNavigationLeft();
-			  	bindNewsNavigationRight();
-			  } else if (i == (sliderLength - 1)) {
-			  	bindNewsNavigationLeft();
-			  	unbindNewsNavigationRight();
-			  }
 
 			  initUpdateReadingScroll(i);
 			});
@@ -64,13 +54,33 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 	function initNewsNavigation() {
 
-		const total					= document.getElementById("newsNavigation-total"),
+		const previous 			= document.querySelector(".newsNavigation-previous a"),
+					next 					= document.querySelector(".newsNavigation-next a"),
+					total					= document.getElementById("newsNavigation-total"),
 					sliderLength	= document.querySelectorAll('.newsCarousel-item').length;
 
 		total.innerText = sliderLength;
+		previous.classList.add("disabled");
 
-		bindNewsNavigationLeft();
-		bindNewsNavigationRight();
+		previous.addEventListener("click", function(e) {
+			e.preventDefault();
+			previous.classList.remove("disabled");
+			if (document.querySelector('.active').previousElementSibling) {
+		  	document.querySelector('.active').previousElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
+			} else {
+				previous.classList.add("disabled");
+			}
+		});
+
+		next.addEventListener("click", function(e) {
+			e.preventDefault();
+			next.classList.remove("disabled");
+			if (document.querySelector('.active').nextElementSibling) {
+		  	document.querySelector('.active').nextElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
+			} else {
+				next.classList.add("disabled");
+			}
+		});
 
 	}
 
