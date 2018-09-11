@@ -2,6 +2,13 @@
 	position: fixed;
 	margin: 0;
 	padding: 0;
+	left: 0;
+	z-index: 9999;
+	background: #ffcdd2;
+
+	.determinate {
+		background: #b71c1c;
+	}
 }
 
 .drops {
@@ -74,6 +81,36 @@
 		}
 	}
 	
+}
+
+.newsNavigation {
+	
+	background: #FFF;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+	div {
+		display: inline-block;
+		margin: 0 auto;
+
+		a {
+			color: #232323;
+			display: block;
+
+			&:hover,
+			&:focus {
+				color: #000;
+			}
+			
+			&.disabled {
+				opacity: .5;
+			}
+		}
+
+	}
 }
 
 // Small size screens
@@ -150,6 +187,10 @@
 				}
 			}
 		}
+	}
+
+	.progress {
+		bottom: 50px;
 	}
 	
 }
