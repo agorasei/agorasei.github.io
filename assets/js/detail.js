@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
 	
 });
 
-document.addEventListener("resize", function(e) {
+window.addEventListener("resize", function(e) {
 
 	if (document.documentElement.offsetWidth <= 600) {
 		initSlider();
