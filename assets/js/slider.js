@@ -60,21 +60,35 @@ function initNewsNavigation() {
 
 	previous.addEventListener("click", function(e) {
 		e.preventDefault();
-		previous.classList.remove("disabled");
-		if (document.querySelector('.active').previousElementSibling) {
-	  	document.querySelector('.active').previousElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-		} else {
-			previous.classList.add("disabled");
+
+		let el = document.querySelector('.active').previousElementSibling;
+
+		if (el) {
+	  	el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
+  		next.classList.remove("disabled");
+
+	  	if (!el.previousElementSibling) {
+	  		previous.classList.add("disabled");
+	  	} else {
+	  		previous.classList.remove("disabled");
+	  	}
 		}
 	});
 
 	next.addEventListener("click", function(e) {
 		e.preventDefault();
-		next.classList.remove("disabled");
-		if (document.querySelector('.active').nextElementSibling) {
-	  	document.querySelector('.active').nextElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-		} else {
-			next.classList.add("disabled");
+		
+		let el = document.querySelector('.active').nextElementSibling;
+
+		if (el) {
+	  	el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
+  		previous.classList.remove("disabled");
+
+	  	if (!el.nextElementSibling) {
+	  		next.classList.add("disabled");
+	  	} else {
+	  		next.classList.remove("disabled");
+	  	}
 		}
 	});
 
