@@ -1,6 +1,8 @@
 function initSlider() {
 	const sliderItems		= document.querySelectorAll('.newsCarousel-item'),
-				current 			= document.getElementById("newsNavigation-current");
+				current 			= document.getElementById("newsNavigation-current"),
+				previous 			= document.querySelector(".newsNavigation-previous a"),
+				next 					= document.querySelector(".newsNavigation-next a");
 	
 	var		sliderLength 	= sliderItems.length,
 				even 					= sliderLength / 2,
@@ -30,8 +32,17 @@ function initSlider() {
 
 		  current.innerText = (i + 1);
 
-		  if (el.previousElementSibling) el.previousElementSibling.classList.add('prev');
-		  if (el.nextElementSibling) el.nextElementSibling.classList.add('next');
+		  if (el.previousElementSibling) {
+		  	el.previousElementSibling.classList.add('prev');
+
+	  		manageControls(el, previous, next);
+		  }
+
+		  if (el.nextElementSibling) {
+		  	el.nextElementSibling.classList.add('next');
+
+	  		manageControls(el, previous, next);
+		  }
 
 		  initUpdateReadingScroll(i);
 		});
@@ -39,11 +50,13 @@ function initSlider() {
 
 	// Keyboard nav
 	document.body.addEventListener("keydown", function(e) {
+		let active = document.querySelector('.active');
+
 	  if (e.keyCode == 37) {
-	    document.querySelector('.active').previousElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
+	    active.previousElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
 	  }
 	  else if (e.keyCode == 39) {
-	    document.querySelector('.active').nextElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
+	    active.nextElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
 	  }
 	});
 }
@@ -65,13 +78,8 @@ function initNewsNavigation() {
 
 		if (el) {
 	  	el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-  		next.classList.remove("disabled");
 
-	  	if (!el.previousElementSibling) {
-	  		previous.classList.add("disabled");
-	  	} else {
-	  		previous.classList.remove("disabled");
-	  	}
+	  	//manageControls(el, previous, next);
 		}
 	});
 
@@ -82,14 +90,30 @@ function initNewsNavigation() {
 
 		if (el) {
 	  	el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-  		previous.classList.remove("disabled");
-
-	  	if (!el.nextElementSibling) {
-	  		next.classList.add("disabled");
-	  	} else {
-	  		next.classList.remove("disabled");
-	  	}
+	  	
+	  	//manageControls(el, previous, next);
 		}
 	});
+
+}
+
+function manageControls (el, previous, next) {
+
+  previous.classList.remove("disabled");
+	next.classList.remove("disabled");
+
+	if (!el.previousElementSibling) {
+		previous.classList.add("disabled");
+	} else {
+		previous.classList.remove("disabled");
+		el.classList.add('prev');
+	}
+
+	if (!el.nextElementSibling) {
+		next.classList.add("disabled");
+	} else {
+		next.classList.remove("disabled");
+		el.classList.add('next');
+	}
 
 }

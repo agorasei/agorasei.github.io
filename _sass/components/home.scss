@@ -1,3 +1,7 @@
+.home {
+	overflow: hidden;
+}
+
 .news-tag {
 	background: #b71c1c;
 	font-size: 0.75rem;
@@ -11,7 +15,7 @@
 	margin-top: 3.5rem;
 }
 
-#mainContent {
+.mainContent {
 	
 	display: flex;
 	align-items: center;
