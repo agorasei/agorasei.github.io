@@ -211,9 +211,30 @@
 // Medium size
 @media (min-width: 601px) and (max-width: 991px) {
 
-	.card.headline {
+	.progress {
+		top: 0;
+		left: 0;
+		z-index: 9999;
+	}
+
+	.row .col-headline {
+		padding: 0;
+		margin: 0;
+	}
+
+	.headline {
+		margin: 0;
 		display: flex;
 		align-items: center;
+		height: calc(100vh - 64px);
+		text-align: center;
+
+		.headline-title {
+			font-size: 2rem;
+			font-weight: 900;
+			line-height: 1.3em;
+			text-align: center;
+		}
 	}
 	
 }
