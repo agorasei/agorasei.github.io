@@ -78,8 +78,6 @@ function initNewsNavigation() {
 
 		if (el) {
 	  	el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-
-	  	//manageControls(el, previous, next);
 		}
 	});
 
@@ -90,8 +88,6 @@ function initNewsNavigation() {
 
 		if (el) {
 	  	el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-	  	
-	  	//manageControls(el, previous, next);
 		}
 	});
 
@@ -106,14 +102,14 @@ function manageControls (el, previous, next) {
 		previous.classList.add("disabled");
 	} else {
 		previous.classList.remove("disabled");
-		el.classList.add('prev');
+		el.previousElementSibling.classList.add('prev');
 	}
 
 	if (!el.nextElementSibling) {
 		next.classList.add("disabled");
 	} else {
 		next.classList.remove("disabled");
-		el.classList.add('next');
+		el.nextElementSibling.classList.add('next');
 	}
 
 }
