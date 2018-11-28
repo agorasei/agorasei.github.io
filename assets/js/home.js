@@ -28,4 +28,12 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 		});
 
+
+	var news = document.querySelectorAll(".card.news");
+
+	news.forEach(function (el, i){
+		let image = el.getAttribute("data-image");
+		el.style.backgroundImage = "url('" + image + "')";
+	});
+
 });
