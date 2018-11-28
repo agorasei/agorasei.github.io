@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function(e) {
 
 	if (document.documentElement.offsetWidth <= 600) {
-		initSlider();
-		initNewsNavigation();
+		//initSlider();
+		//initNewsNavigation();
 
 	    var elems = document.querySelectorAll('.parallax');
-	    var instances = M.Parallax.init(elems, {});
+	    var instancesParallax = M.Parallax.init(elems, {});
 	}
 
 	initUpdateReadingScroll(-1);
@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
 window.addEventListener("resize", function(e) {
 
 	if (document.documentElement.offsetWidth <= 600) {
-		initSlider();
-		initNewsNavigation();
+		//initSlider();
+		//initNewsNavigation();
 	}
 
 });
