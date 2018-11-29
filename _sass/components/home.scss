@@ -25,6 +25,15 @@
 
 .homeNews {
 	height: calc(100vh - 80px);
+
+	&.carousel {
+
+		.carousel-item {
+			width: 80vw;
+			height: calc(100vh - 80px);
+		}
+
+	}
 }
 
 .news {

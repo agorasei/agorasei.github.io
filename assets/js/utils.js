@@ -51,7 +51,25 @@ function manageControls (el, previous, next) {
 
 }
 
-function changeBackground() {}
+function changeBackground(el, bgSize) {
+  el.style.backgroundImage = "url('" + el.getAttribute("data-image") + "')";
+  el.style.backgroundRepeat = "no-repeat";
+  el.style.backgroundPosition = "center center";
+  el.style.backgroundSize = bgSize || "auto";
+}
+
+function parallaxDetail(createImage) {
+    let parallaxContainer = document.querySelector(".parallax-container"),
+        elems = document.querySelector('.parallax');
+
+    if (createImage) {
+      let image = document.createElement("img");
+      image.src = parallaxContainer.getAttribute("data-image");
+      elems.appendChild(image);
+    }
+
+    var instancesParallax = M.Parallax.init(elems, {});
+}
 
 // Todas as funções iniciadas com a11y são relacionadas a acessibilidade
 function a11yToggleHighContrast() {}

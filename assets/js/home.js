@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function(e) {
 	var elem 		= document.querySelector('.carousel'),
 		options 	= {
 			duration: 	200,
-			dist: 		-60,
-			padding: 	20,
-			shift: 		20,
-			numVisible: 1,
+			dist: 		-100,
+			padding: 	0,
+			shift: 		0,
+			numVisible: 3,
 			noWrap: 	true,
 			fullWidth: 	false,
 			indicators: true
@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
 	var news = document.querySelectorAll(".card.news");
 
 	news.forEach(function (el, i){
-		let image = el.getAttribute("data-image");
-		el.style.backgroundImage = "url('" + image + "')";
+    changeBackground(el, "cover");
 	});
 
 });
