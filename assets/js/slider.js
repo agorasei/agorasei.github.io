@@ -92,24 +92,3 @@ function initNewsNavigation() {
 	});
 
 }
-
-function manageControls (el, previous, next) {
-
-  previous.classList.remove("disabled");
-	next.classList.remove("disabled");
-
-	if (!el.previousElementSibling) {
-		previous.classList.add("disabled");
-	} else {
-		previous.classList.remove("disabled");
-		el.previousElementSibling.classList.add('prev');
-	}
-
-	if (!el.nextElementSibling) {
-		next.classList.add("disabled");
-	} else {
-		next.classList.remove("disabled");
-		el.nextElementSibling.classList.add('next');
-	}
-
-}
