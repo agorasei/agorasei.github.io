@@ -51,11 +51,13 @@ function manageControls (el, previous, next) {
 
 }
 
-function changeBackground(el, bgSize) {
-  el.style.backgroundImage = "url('" + el.getAttribute("data-image") + "')";
-  el.style.backgroundRepeat = "no-repeat";
-  el.style.backgroundPosition = "center center";
-  el.style.backgroundSize = bgSize || "auto";
+function changeBackground(el, bgSize, destination) {
+  let elDest = destination || el;
+
+  elDest.style.backgroundImage = "url('" + el.getAttribute("data-image") + "')";
+  elDest.style.backgroundRepeat = "no-repeat";
+  elDest.style.backgroundPosition = "center center";
+  elDest.style.backgroundSize = bgSize || "auto";
 }
 
 function parallaxDetail(createImage) {
@@ -71,15 +73,22 @@ function parallaxDetail(createImage) {
     var instancesParallax = M.Parallax.init(elems, {});
 }
 
-// Todas as funções iniciadas com a11y são relacionadas a acessibilidade
-function a11yToggleHighContrast() {}
+function darkOverlay(target, opacity) {
 
-function a11yIncreaseFont() {
+  target.classList.add("darkOverlay", 0.5);
+  //document.querySelector(".darkOverlay:before").style.opacity = opacity || 1;
 
 }
 
 function enterFullScreen() {}
 
 function exitFullScreen() {
+
+}
+
+// Todas as funções iniciadas com a11y são relacionadas a acessibilidade
+function a11yToggleHighContrast() {}
+
+function a11yIncreaseFont() {
 
 }
