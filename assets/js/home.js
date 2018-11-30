@@ -1,17 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(e) {
 
 	var elem 		= document.querySelector('.carousel'),
-		options 	= {
-			duration: 	200,
-			dist: 		-100,
-			padding: 	0,
-			shift: 		0,
-			numVisible: 3,
-			noWrap: 	true,
-			fullWidth: 	false,
-			indicators: true
-		},
-		instance 	= M.Carousel.init(elem, options);
+      width   = document.documentElement.offsetWidth,
+  		options = {
+  			duration: 	200,
+  			dist: 		(width <= 600) ? -20 : -30,
+  			padding: 	(width <= 600) ? 20 : 100,
+  			shift: 		(width <= 600) ? 10 : 50,
+  			numVisible: 3,
+  			noWrap: 	true,
+  			fullWidth: 	false,
+  			indicators: true
+  		},
+  		instance 	= M.Carousel.init(elem, options);
 
 		document.addEventListener("keydown", function(e) {
 
@@ -27,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
 			}
 
 		});
-
 
 	var news = document.querySelectorAll(".card.news");
 
