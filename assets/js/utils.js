@@ -75,8 +75,8 @@ function parallaxDetail(createImage) {
 
 function darkOverlay(target, opacity) {
 
-  target.classList.add("darkOverlay", 0.5);
-  //document.querySelector(".darkOverlay:before").style.opacity = opacity || 1;
+  target.classList.add("darkOverlay");
+  document.querySelector(".darkOverlay").style.opacity = opacity || 1;
 
 }
 
@@ -87,7 +87,21 @@ function exitFullScreen() {
 }
 
 // Todas as funções iniciadas com a11y são relacionadas a acessibilidade
-function a11yToggleHighContrast() {}
+function a11yToggleHighContrast() {
+
+  let bodyClass = document.body.classList;
+
+  if (bodyClass.contains("highContrast")) {
+
+    bodyClass.remove("highContrast");
+
+  } else {
+
+    bodyClass.add("highContrast");
+
+  }
+
+}
 
 function a11yIncreaseFont() {
 

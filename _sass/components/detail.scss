@@ -136,24 +136,28 @@
 @media (max-width: 600px) {
 
 	.detailContent {
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-		overflow: hidden;
+		    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
 	}
 
 	.drops-mobile-carousel {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		position: relative;
-		top: 10px;
-		transform: translateX(10vw);
-		transition: 1s;
+		overflow: hidden;
+	    position: relative;
+	    width: 100%;
+		height: calc(100vh - 80px);
+		-webkit-perspective: 500px;
+		perspective: 500px;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+		-webkit-transform-origin: 0% 50%;
+		transform-origin: 0% 50%;
 
-		.drop {
+		.carousel-item {
 			width: 80vw;
 			height: calc(100vh - 120px);
+			margin: 0;
 			display: flex;
 			align-items: stretch;
 			justify-content: center;
@@ -161,25 +165,7 @@
 			position: relative;
 			cursor: pointer;
 			pointer-events: none;
-			transition: 1s;
 			box-sizing: border-box;
-			z-index: 1;
-
-			&.active {
-				-webkit-transform: scale(1) translateY(0);
-				transform: scale(1) translateY(0);
-				opacity: 1;
-				pointer-events: auto;
-			}
-
-			&.prev,
-			&.next {
-				z-index: 2;
-				pointer-events: auto;
-				-webkit-transform: scale(0.9) translateY(0);
-				transform: scale(0.9) translateY(0);
-				opacity: .8;
-			}
 
 			.col {
 				display: flex;

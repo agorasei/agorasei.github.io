@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
 	  		options = {
 	  			duration: 	200,
 	  			dist: 		-20,
-	  			padding: 	20,
-	  			shift: 		10,
+	  			padding: 	0,
+	  			shift: 		0,
 	  			numVisible: 3,
 	  			noWrap: 	true,
 	  			fullWidth: 	false,
@@ -45,6 +45,14 @@ document.addEventListener("DOMContentLoaded", function(e) {
 	}
 
 	initUpdateReadingScroll(-1);
+
+	document.getElementById("highContrastMode").addEventListener("click", function(e) {
+
+		e.preventDefault();
+
+		a11yToggleHighContrast();
+
+	});
 	
 });
 
