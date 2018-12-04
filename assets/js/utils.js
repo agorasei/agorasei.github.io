@@ -117,16 +117,22 @@ function toggleFullScreen() {
 
   var doc     = window.document, 
       docEl   = doc.documentElement,
-      header  = document.querySelector("nav.white"),
-      footer  = document.querySelector(".newsNavigation");
+      header  = document.querySelector("header"),
+      nav     = document.querySelector("nav.white"),
+      footer  = document.querySelector(".newsNavigation"),
+      progress = document.querySelector(".progress"),
+      carousel = document.querySelector(".drops-mobile-carousel");
 
   var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
   var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
 
   if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
     requestFullScreen.call(docEl);
-    header.style.transform = "translateY(-56px)";
-    footer.style.transform = "translateY(50px)";
+    header.style.height = "0px";
+    nav.style.height    = "0px";
+    footer.style.height = "0px";
+    progress.style.bottom = "0px";
+    carousel.style.height = "100vh";
   } else {
     cancelFullScreen.call(doc);
   }

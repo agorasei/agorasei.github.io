@@ -178,8 +178,9 @@
 // Small size screens
 @media (max-width: 600px) {
 
-	nav.white, .newsNavigation {
-		transition: all .15s ease-in-out;
+	header, nav.white, .newsNavigation {
+		transition: all .1s ease-in-out;
+		overflow: hidden;
 	}
 
 	.detailContent {

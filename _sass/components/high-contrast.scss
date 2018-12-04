@@ -2,5 +2,16 @@
 
 .highContrast {
 	
-	
+	header {
+		nav {
+			background: #232323 !important;
+			color: #FFF;
+
+			.nav-mobile {
+				a {
+					color: #FFF;
+				}
+			}
+		}
+	}
 }
