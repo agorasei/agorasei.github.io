@@ -178,6 +178,10 @@
 // Small size screens
 @media (max-width: 600px) {
 
+	nav.white, .newsNavigation {
+		transition: all .15s ease-in-out;
+	}
+
 	.detailContent {
 		display: flex;
 	    align-items: center;

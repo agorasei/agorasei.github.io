@@ -115,14 +115,18 @@ function darkOverlay(target, opacity) {
 
 function toggleFullScreen() {
 
-  var doc   = window.document, 
-      docEl = doc.documentElement;
+  var doc     = window.document, 
+      docEl   = doc.documentElement,
+      header  = document.querySelector("nav.white"),
+      footer  = document.querySelector(".newsNavigation");
 
   var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
   var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
 
   if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
     requestFullScreen.call(docEl);
+    header.style.transform = "translateY(-56px)";
+    footer.style.transform = "translateY(50px)";
   } else {
     cancelFullScreen.call(doc);
   }
