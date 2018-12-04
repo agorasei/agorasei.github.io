@@ -62,7 +62,10 @@ function detailCarousel() {
   			numVisible: 3,
   			noWrap: 	true,
   			fullWidth: 	false,
-  			indicators: false
+  			indicators: false,
+  			onCycleTo: function() {
+					newsNavigation(M.Carousel.getInstance(elem));
+  			}
   		},
   		instance 	= M.Carousel.init(elem, options);
 
