@@ -1,52 +1,84 @@
-function newsNavigation() {
+function newsNavigation(carousel) {
 
   const previous      = document.querySelector(".newsNavigation-previous a"),
         next          = document.querySelector(".newsNavigation-next a"),
         total         = document.getElementById("newsNavigation-total"),
-        sliderLength  = document.querySelectorAll('.newsCarousel-item').length;
+        sliderLength  = document.querySelectorAll('.carousel-item').length;
 
   total.innerText = sliderLength;
-  previous.classList.add("disabled");
+
+  manageControls(document.querySelector('.active'), previous, next);
 
   previous.addEventListener("click", function(e) {
     e.preventDefault();
 
-    let el = document.querySelector('.active').previousElementSibling;
-
-    if (el) {
-      el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-    }
+    carouselGoTo(carousel, "prev");
   });
 
   next.addEventListener("click", function(e) {
     e.preventDefault();
     
-    let el = document.querySelector('.active').nextElementSibling;
-
-    if (el) {
-      el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
-    }
+    carouselGoTo(carousel, "next");
   });
 
 }
 
 function manageControls (el, previous, next) {
 
+  const current = document.getElementById("newsNavigation-current");
+
+  let index = getElementIndex(el);
+
+  current.innerText = index + 1;
+
+  initUpdateReadingScroll(index);
+
   previous.classList.remove("disabled");
   next.classList.remove("disabled");
 
   if (!el.previousElementSibling) {
     previous.classList.add("disabled");
+    next.classList.remove("disabled");
   } else {
     previous.classList.remove("disabled");
-    el.previousElementSibling.classList.add('prev');
   }
 
   if (!el.nextElementSibling) {
     next.classList.add("disabled");
+    previous.classList.remove("disabled");
   } else {
     next.classList.remove("disabled");
-    el.nextElementSibling.classList.add('next');
+  }
+
+}
+
+function getElementIndex(element) {
+  return [].indexOf.call(element.parentNode.children, element);
+}
+
+function carouselGoTo(carousel, direction) {
+
+  const previous      = document.querySelector(".newsNavigation-previous a"),
+        next          = document.querySelector(".newsNavigation-next a");
+
+  let el = null;
+
+  switch(direction) {
+    case "prev":
+      el = document.querySelector('.active').previousElementSibling;
+
+      if (el) {
+        carousel.prev();
+        manageControls(el, previous, next);
+      }
+      break;
+    case "next":
+      el = document.querySelector('.active').nextElementSibling;
+
+      if (el) {
+        carousel.next();
+        manageControls(el, previous, next);
+      }
   }
 
 }
@@ -104,5 +136,9 @@ function a11yToggleHighContrast() {
 }
 
 function a11yIncreaseFont() {
+
+  let bodyClass = document.body.classList;
+
+
 
 }

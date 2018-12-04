@@ -5,7 +5,7 @@ function initUpdateReadingScroll(index) {
 
 	if (document.documentElement.offsetWidth <= 600) {
 
-		let sliderItems		= document.querySelectorAll('.newsCarousel-item'),
+		let sliderItems		= document.querySelectorAll('.carousel-item'),
 				sliderLength 	= sliderItems.length,
 				initialWidth	= (100 / sliderLength),
 				currentWidth	= 0;

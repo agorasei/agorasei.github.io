@@ -136,17 +136,17 @@
 @media (max-width: 600px) {
 
 	.detailContent {
-		    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    overflow: hidden;
+		display: flex;
+	    align-items: center;
+	    justify-content: flex-start;
+	    overflow: hidden;
 	}
 
 	.drops-mobile-carousel {
 		overflow: hidden;
 	    position: relative;
 	    width: 100%;
-		height: calc(100vh - 80px);
+		height: calc(100vh - 100px);
 		-webkit-perspective: 500px;
 		perspective: 500px;
 		-webkit-transform-style: preserve-3d;
@@ -162,10 +162,13 @@
 			align-items: stretch;
 			justify-content: center;
 			overflow: hidden;
-			position: relative;
+			position: absolute;
+			top: 0;
+			left: 0;
 			cursor: pointer;
 			pointer-events: none;
 			box-sizing: border-box;
+			visibility: hidden;
 
 			.col {
 				display: flex;
