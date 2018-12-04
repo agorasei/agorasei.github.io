@@ -20,11 +20,19 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 	initUpdateReadingScroll(-1);
 
-	document.getElementById("highContrastMode").addEventListener("click", function(e) {
+	document.querySelector(".highContrastMode").addEventListener("click", function(e) {
 
 		e.preventDefault();
 
 		a11yToggleHighContrast();
+
+	});
+
+	document.querySelector(".fullScreen").addEventListener("click", function(e) {
+
+		e.preventDefault();
+
+		toggleFullScreen();
 
 	});
 	
@@ -74,10 +82,12 @@ function detailCarousel() {
 		switch(e.keyCode) {
 			case 37:
 			case 38:
+				e.preventDefault();
 				carouselGoTo(instance, "prev");
 				break;
 			case 39:
 			case 40:
+				e.preventDefault();
 				carouselGoTo(instance, "next");
 				break;
 		}
