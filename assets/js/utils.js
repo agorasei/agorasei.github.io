@@ -107,8 +107,9 @@ function parallaxDetail(createImage) {
 
 function darkOverlay(target, opacity) {
 
-  target.classList.add("darkOverlay");
-  document.querySelector(".darkOverlay").style.opacity = opacity || 1;
+  let op = opacity || 100;
+
+  target.classList.add("darkOverlay", "opacity-" + op);
 
 }
 

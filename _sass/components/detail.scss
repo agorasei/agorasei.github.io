@@ -125,9 +125,52 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgb(51,51,51);
-		background: linear-gradient(0deg, rgba(51,51,51,0.8) 0%, rgba(51,51,51,0.4) 70%);
+		background: rgb(0,0,0);
+		background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 70%);
 		content: '';
+		z-index: 0;
+	}
+
+	&.opacity-90 {
+		&:before {
+			opacity: .9;
+		}
+	}
+
+	&.opacity-80 {
+		&:before {
+			opacity: .8;
+		}
+	}
+
+	&.opacity-70 {
+		&:before {
+			opacity: .7;
+		}
+	}
+
+	&.opacity-60 {
+		&:before {
+			opacity: .6;
+		}
+	}
+
+	&.opacity-50 {
+		&:before {
+			opacity: .5;
+		}
+	}
+
+	&.opacity-40 {
+		&:before {
+			opacity: .4;
+		}
+	}
+
+	&.opacity-30 {
+		&:before {
+			opacity: .3;
+		}
 	}
 
 }
@@ -176,8 +219,10 @@
 				justify-content: center;
 			}
 
-			.headline.card .card-content {
-				padding: 1rem;
+			.headline .card-content {
+				
+				position: relative;
+				z-index: 10000;
 			}
 
 			.card.white .card-content {

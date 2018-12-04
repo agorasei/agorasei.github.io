@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
 		changeBackground(headline);
 		changeBackground(headline, null, mainContent);
 
-		darkOverlay(mainContent);
+		darkOverlay(headline, 40);
+		darkOverlay(mainContent, 90);
 
 		detailCarousel();
 
@@ -61,7 +62,7 @@ function detailCarousel() {
   			numVisible: 3,
   			noWrap: 	true,
   			fullWidth: 	false,
-  			indicators: true
+  			indicators: false
   		},
   		instance 	= M.Carousel.init(elem, options);
 
