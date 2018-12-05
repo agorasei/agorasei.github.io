@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+
+	.fullscreen {
+		
+		.navbar-fixed {
+			height: 0px;
+
+			nav {
+				height: 0px;
+			}
+		}
+
+		.newsNavigation {
+			height: 0px;
+		}
+
+		.progress {
+			bottom: 0px;
+		}
+
+		.drops-mobile-carousel {
+			height: 100vh;
+
+			.carousel-item {
+				height: calc(100vh - 40px);
+			}
+		}
+
+	}
+
+}

@@ -28,6 +28,14 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 	});
 
+	document.querySelector(".highContrastMode-small").addEventListener("click", function(e) {
+
+		e.preventDefault();
+
+		a11yToggleHighContrast();
+
+	});
+
 	document.querySelector(".fullScreen").addEventListener("click", function(e) {
 
 		e.preventDefault();
@@ -91,6 +99,8 @@ function detailCarousel() {
 				carouselGoTo(instance, "next");
 				break;
 		}
+
+		return true;
 
 	});
 
