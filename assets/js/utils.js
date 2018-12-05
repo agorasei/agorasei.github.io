@@ -93,16 +93,30 @@ function changeBackground(el, bgSize, destination) {
 }
 
 function parallaxDetail(createImage) {
-    let parallaxContainer = document.querySelector(".parallax-container"),
-        elems = document.querySelector('.parallax');
+  let parallaxContainer = document.querySelector(".parallax-container"),
+      elems = document.querySelector('.parallax');
 
-    if (createImage) {
-      let image = document.createElement("img");
-      image.src = parallaxContainer.getAttribute("data-image");
-      elems.appendChild(image);
-    }
+  if (createImage) {
+    let image = document.createElement("img");
+    image.src = parallaxContainer.getAttribute("data-image");
+    elems.appendChild(image);
+  }
 
-    var instancesParallax = M.Parallax.init(elems, {});
+  var instancesParallax = M.Parallax.init(elems, {});
+}
+
+function initParallaxDetail(el, createImage) {
+
+  el.classList.add("parallax-container");
+
+  parallaxDetail(createImage);
+
+}
+
+function destroyParallaxDetail(el) {
+  
+  el.classList.remove("parallax-container");
+
 }
 
 function darkOverlay(target, opacity) {

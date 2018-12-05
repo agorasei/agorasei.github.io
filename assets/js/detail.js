@@ -1,9 +1,43 @@
 document.addEventListener("DOMContentLoaded", function(e) {
+		
+	pageSetup();
+
+	document.querySelector(".highContrastMode").addEventListener("click", function(e) {
+		e.preventDefault();
+		a11yToggleHighContrast();
+	});
+
+	document.querySelector(".highContrastMode-small").addEventListener("click", function(e) {
+		e.preventDefault();
+		a11yToggleHighContrast();
+	});
+
+	document.querySelector(".fullScreen").addEventListener("click", function(e) {
+		e.preventDefault();
+		toggleFullScreen();
+	});
+	
+});
+
+window.addEventListener("resize", function(e) {
+
+	pageSetup();
+
+});
+
+function pageSetup() {
+
+	let headline 		= document.querySelector(".headline"),
+			mainContent = document.querySelector(".detailContent")
+			elem 				= document.querySelector('.drops-mobile-carousel'),
+			carousel 		= M.Carousel.getInstance(elem);
+
+	if (carousel) carousel.destroy();
 
 	if (document.documentElement.offsetWidth <= 600) {
 
-		let headline 		= document.querySelector(".headline"),
-				mainContent = document.querySelector(".detailContent");
+		destroyParallaxDetail(headline);
+
 		changeBackground(headline);
 		changeBackground(headline, null, mainContent);
 
@@ -14,58 +48,14 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 	} else {
 
-		parallaxDetail(true);
+		initParallaxDetail(headline, true);
+		darkOverlay(headline, 60);
 
 	}
 
 	initUpdateReadingScroll(-1);
 
-	document.querySelector(".highContrastMode").addEventListener("click", function(e) {
-
-		e.preventDefault();
-
-		a11yToggleHighContrast();
-
-	});
-
-	document.querySelector(".highContrastMode-small").addEventListener("click", function(e) {
-
-		e.preventDefault();
-
-		a11yToggleHighContrast();
-
-	});
-
-	document.querySelector(".fullScreen").addEventListener("click", function(e) {
-
-		e.preventDefault();
-
-		toggleFullScreen();
-
-	});
-	
-});
-
-window.addEventListener("resize", function(e) {
-
-	if (document.documentElement.offsetWidth <= 600) {
-
-		let headline 		= document.querySelector(".headline"),
-				mainContent = document.querySelector(".detailContent");
-		changeBackground(headline);
-		changeBackground(headline, null, mainContent);
-
-		darkOverlay(mainContent);
-
-		detailCarousel();
-
-	} else {
-		parallaxDetail(true);
-	}
-
-	initUpdateReadingScroll(-1);
-
-});
+}
 
 function detailCarousel() {
 
