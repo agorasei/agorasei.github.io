@@ -13,7 +13,7 @@ script: home
 						<p class="news-tag">{{ post.subject }} | Giro de Notícias #{{ post.issue_number }}</p>
 						<h1 class="news-title white-text">{{ post.title }}</h1>
 						<p class="news-complement white-text">
-							<i class="material-icons" aria-label="Publicado em:">date_range</i> {{ post.date }}
+							<i class="material-icons" aria-label="Publicado em:">date_range</i> {{ post.date | date: "%d/%m/%Y" }}
 							<i class="material-icons" aria-label="Tempo estimado de leitura:">timer</i> {{post.reading_time }} min. de leitura
 						</p>
 						<a href="{{ post.url }}" class="waves-effect waves-light btn blue darken-1">Leia agora</a>
