@@ -27,6 +27,11 @@ document.addEventListener("DOMContentLoaded", function(e) {
 		toggleFullScreen();
 	});
 
+	document.querySelector(".exitFullScreen").addEventListener("click", function(e) {
+		e.preventDefault();
+		toggleFullScreen();
+	});
+
 });
 
 window.addEventListener("resize", function(e) {

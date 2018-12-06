@@ -11,13 +11,11 @@ function newsNavigation(carousel) {
 
   previous.addEventListener("click", function(e) {
     e.preventDefault();
-
     carouselGoTo(carousel, "prev");
   });
 
   next.addEventListener("click", function(e) {
     e.preventDefault();
-    
     carouselGoTo(carousel, "next");
   });
 
@@ -58,8 +56,8 @@ function getElementIndex(element) {
 
 function carouselGoTo(carousel, direction) {
 
-  const previous      = document.querySelector(".newsNavigation-previous a"),
-        next          = document.querySelector(".newsNavigation-next a");
+  const previous = document.querySelector(".newsNavigation-previous a"),
+        next     = document.querySelector(".newsNavigation-next a");
 
   let el = null;
 
@@ -94,11 +92,13 @@ function changeBackground(el, bgSize, destination) {
 
 function parallaxDetail(createImage) {
   let parallaxContainer = document.querySelector(".parallax-container"),
-      elems = document.querySelector('.parallax');
+      elems = document.querySelector('.parallax'),
+      title = parallaxContainer.querySelector(".headline-title");
 
   if (createImage) {
     let image = document.createElement("img");
     image.src = parallaxContainer.getAttribute("data-image");
+    image.alt = title;
     elems.appendChild(image);
   }
 
@@ -140,8 +140,6 @@ function toggleFullScreen() {
       body      = document.body;
 
   if (screenfull.enabled) {
-
-    console.log(screenfull.isFullscreen);
 
     if (screenfull.isFullscreen) {
       screenfull.exit();

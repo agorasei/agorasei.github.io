@@ -187,6 +187,14 @@
 		overflow: hidden;
 	}
 
+	.exitFullScreen {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		transition: all .1s ease-in-out;
+		transform: translateY(-55px);
+	}
+
 	.detailContent {
 		display: flex;
 	    align-items: center;
@@ -466,6 +474,10 @@ html.increaseFont {
 		nav {
 			height: 0px;
 		}
+	}
+
+	.exitFullScreen {
+		transform: translateY(0);
 	}
 
 	.newsNavigation {

@@ -11,12 +11,9 @@
         <nav class=" blue darken-1 hide-on-small-only">
           <div class="nav-wrapper">
             <ul id="nav-mobile" class="left">
-              <li><a href="/index.html"><i class="material-icons" title="Voltar para a página inicial">arrow_back</i></a></li>
+              <li><a href="{{ site.url }}"><i class="material-icons" title="Voltar para a página inicial">arrow_back</i></a></li>
             </ul>
-            <a href="/index.html" class="brand-logo center">AgoraSei</a>
-            <ul id="nav-mobile" class="right">
-              <li><a href="#"><i class="material-icons" title="Buscar">search</i></a></li>
-            </ul>
+            <a href="{{ site.url }}" class="brand-logo center">AgoraSei</a>
           </div>
         </nav>
 
@@ -25,7 +22,7 @@
             <ul id="nav-mobile" class="left">
               <li><a class="blue-grey-text text-darken-4" href="/index.html"><i class="material-icons" title="Voltar para a página inicial">arrow_back</i></a></li>
               <li>
-                <a href="/index.html" class="blue-grey-text text-darken-4">AgoraSei</a>
+                <a href="{{ site.url }}" class="blue-grey-text text-darken-4">AgoraSei</a>
               </li>
             </ul>
             <ul id="nav-mobile" class="right">
@@ -35,5 +32,8 @@
             </ul>
           </div>
         </nav>
+
       </header>
+
+      <a href="#" class="btn-floating btn waves-effect waves-light white hide-on-med-and-up exitFullScreen" title="Sair do modo tela cheia"><i class="material-icons black-text">fullscreen_exit</i></a>
       

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
   <html lang="pt-br">
     <head>
-    	<title>Agora Sei</title>
+    	<title>{% if page.issue_number %}{{ page.title }} | Giro de Notícias {{ page.issue_number }} | {% endif %}Agora Sei</title>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-		 <link href="{{ root_url }}/assets/css/style.css" media="screen" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+		<link href="{{ root_url }}/assets/css/style.css" media="screen" rel="stylesheet">
 		 
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
