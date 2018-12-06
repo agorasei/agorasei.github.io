@@ -441,6 +441,19 @@
 
 html.increaseFont {
 	font-size: 1.5rem;
+
+	.shortcut {
+		margin-top: -64px;
+	}
+
+	nav {
+		height: 74px;
+		line-height: 74px;
+	}
+
+	.headline {
+		height: auto;
+	}
 }
 
 /* Fullscreen mode */
