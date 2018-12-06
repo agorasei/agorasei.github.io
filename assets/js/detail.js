@@ -12,11 +12,11 @@ document.addEventListener("DOMContentLoaded", function(e) {
 		a11yToggleHighContrast();
 	});
 
-	document.querySelector(".fullScreen").addEventListener("click", function(e) {
+	document.querySelector(".fullScreenMode").addEventListener("click", function(e) {
 		e.preventDefault();
 		toggleFullScreen();
 	});
-	
+
 });
 
 window.addEventListener("resize", function(e) {

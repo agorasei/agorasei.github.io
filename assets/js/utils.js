@@ -127,20 +127,31 @@ function darkOverlay(target, opacity) {
 
 }
 
+function initFullScreen() {
+  screenfull.on("change", function() {
+    document.querySelector(".fullScreenMode").dispatchEvent( new MouseEvent("click", {bubbles: false}) );
+  });
+}
+
 function toggleFullScreen() {
 
   var doc       = window.document, 
       docEl     = doc.documentElement,
       body      = document.body;
 
-  var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
-  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+  if (screenfull.enabled) {
 
-  if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
-    requestFullScreen.call(docEl);
-    body.classList.add("fullscreen");
+    console.log(screenfull.isFullscreen);
+
+    if (screenfull.isFullscreen) {
+      screenfull.exit();
+      body.classList.remove("fullscreen");
+    } else {
+      screenfull.request();
+      body.classList.add("fullscreen");
+    }
+
   } else {
-    cancelFullScreen.call(doc);
     body.classList.remove("fullscreen");
   }
 
