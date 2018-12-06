@@ -1,0 +1,68 @@
+{% include header-detail.html %}
+
+  <main id="mainContent" class="detailContent">
+    
+    <section class="drops drops-mobile-carousel">
+
+		<div class="row drop carousel-item">
+			<div class="col col-headline l12">
+				<div class="headline parallax-container" data-image="{{ page.cover_image }}">
+					<div class="parallax"></div>
+					<div class="card-content container">
+						<p class="headline-tag">{{ page.subject }} | Giro de Notícias #{{ page.issue_number }}</p>
+						<h1 class="headline-title white-text">{{ page.title }}</h1>
+						<p class="headline-complement white-text">
+							<i class="material-icons" aria-label="Publicado em:">date_range</i> {{ page.date }}
+							<i class="material-icons" aria-label="Tempo estimado de leitura:">timer</i> {{page.reading_time }} min. de leitura
+						</p>
+						<p class="headline-update white-text">Última atualização em {{ page.last_updated }}</p>
+						<p class="headline-photoCredit"> Foto: {{ page.cover_image_credit }}</p>
+					</div>
+					<a href="#" class="headline-gotoContent white-text  hide-on-small-only"><i class="material-icons">keyboard_arrow_down</i></a>
+				</div>
+			</div>
+		</div>
+		
+		{% for drop in page.drops %}
+		<div class="row drop carousel-item">
+			<article class="col m10 offset-m1 l6 offset-l3">
+				<div class="card white">
+					<div class="card-content">
+						<h2 class="card-title">{{ drop.title }}</h2>
+						<p>{{ drop.content }}</p>
+					</div>
+				</div>
+			</article>
+		</div>
+		{% endfor %}
+
+	</section>
+
+	<aside class="row hide-on-small-only">
+		<div class="col m10 offset-m1 l6 offset-l3">
+			<a href="{{ site.url }}" class="waves-effect waves-light btn-large blue darken-1 col m12"><i class="material-icons left">chevron_left</i> Retornar para a página inicial</a>
+		</div>
+	</aside>
+
+	<aside class="newsNavigation valign-wrapper center-align hide-on-med-and-up">
+		<div class="newsNavigation-previous">
+			<a href="#" aria-label="Anterior"><i class="material-icons">chevron_left</i></a>
+		</div>
+		<div class="newsNavigation-indicator">
+			<span id="newsNavigation-current">1</span> / <span id="newsNavigation-total">1</span>
+		</div>
+		<div class="newsNavigation-next">
+			<a href="#" aria-label="Anterior"><i class="material-icons">chevron_right</i></a>
+		</div>
+	</aside>
+
+	<aside class="accessibilityControls hide-on-small-only">
+		<ul>
+			<li><a href="#" class="highContrastMode" title="Ativar / desativar modo de alto constraste"><i class="material-icons">invert_colors</i> <span>Alto contraste</span></a></li>
+			<li><a href="#" class="increaseFontMode" title="Aumentar a fonte da página"><i class="material-icons">font_download</i> <span>Aumentar fonte</span></a></li>
+		</ul>
+	</aside>
+
+  </main>
+
+{% include footer.html %}
