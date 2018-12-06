@@ -5,7 +5,7 @@
       <script src="{{ root_url }}/assets/js/utils.js"></script>
       <script src="{{ root_url }}/assets/js/reading-scroll.js"></script>
       <script src="{{ root_url }}/assets/js/{{ page.script }}.js"></script>
-      {% if page.layout == 'detail' %}
+      {% if page.layout == 'detail' || page.layout == 'post' %}
       	<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bfd649d6885c129"></script>
       {% endif %}
     </body>
