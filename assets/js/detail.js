@@ -12,6 +12,16 @@ document.addEventListener("DOMContentLoaded", function(e) {
 		a11yToggleHighContrast();
 	});
 
+	document.querySelector(".increaseFontMode").addEventListener("click", function(e) {
+		e.preventDefault();
+		a11yToggleIncreaseFont();
+	});
+
+	document.querySelector(".increaseFontMode-small").addEventListener("click", function(e) {
+		e.preventDefault();
+		a11yToggleIncreaseFont();
+	});
+
 	document.querySelector(".fullScreenMode").addEventListener("click", function(e) {
 		e.preventDefault();
 		toggleFullScreen();

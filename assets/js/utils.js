@@ -174,10 +174,18 @@ function a11yToggleHighContrast() {
 
 }
 
-function a11yIncreaseFont() {
+function a11yToggleIncreaseFont() {
 
-  let bodyClass = document.body.classList;
+  let htmlClass = document.documentElement.classList;
 
+  if (htmlClass.contains("increaseFont")) {
 
+    htmlClass.remove("increaseFont");
+
+  } else {
+
+    htmlClass.add("increaseFont");
+
+  }
 
 }
