@@ -100,6 +100,14 @@
 		display: inline-block;
 		margin: 0 auto;
 
+		&.newsNavigation-previous {
+			padding-left: 4rem;
+		}
+
+		&.newsNavigation-next {
+			padding-right: 4rem;
+		}
+
 		a {
 			color: #232323;
 			display: block;
@@ -187,6 +195,10 @@
 		overflow: hidden;
 	}
 
+	.nav-mobile-logo {
+		font-size: 16px;/* fixed font-size */
+	}
+
 	.exitFullScreen {
 		position: absolute;
 		top: 10px;
@@ -235,10 +247,19 @@
 				justify-content: center;
 			}
 
+			.headline {
+				height: calc(100vh - 140px);
+			}
+
 			.headline .card-content {
-				
 				position: relative;
 				z-index: 10000;
+				height: 100%;
+			    overflow-y: auto;
+			    overflow-x: hidden;
+			    margin: 0;
+			    width: 100%;
+			    padding: 24px;
 			}
 
 			.card.white .card-content {
@@ -454,7 +475,7 @@ html.increaseFont {
 		margin-top: -64px;
 	}
 
-	nav {
+	nav:not(.white) {
 		height: 74px;
 		line-height: 74px;
 	}
