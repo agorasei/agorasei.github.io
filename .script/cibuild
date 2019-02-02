@@ -3,4 +3,3 @@ set -e # halt script on error
 
 bundle exec jekyll build
 bundle exec htmlproofer --allow_hash_href ./_site
-bundle exec s3_website push
