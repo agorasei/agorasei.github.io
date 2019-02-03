@@ -70,3 +70,13 @@ fields:
   config:
     source:
       type: documents
+- type: datetime
+  name: datetime
+  label: Datetime
+  config:
+    time_format: DD
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: DD/MM/YYYY
