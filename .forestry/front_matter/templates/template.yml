@@ -5,9 +5,12 @@ is_partial: false
 fields:
 - name: layout
   label: Layout
-  type: text
-  hidden: false
-  default: ''
+  type: select
+  config:
+    source:
+      type: simple
+    options:
+    - post
 - name: script
   label: Script
   type: text
@@ -68,11 +71,3 @@ fields:
   config:
     source:
       type: documents
-- type: select
-  config:
-    source:
-      type: simple
-    options:
-    - post
-  label: Test
-  name: test
