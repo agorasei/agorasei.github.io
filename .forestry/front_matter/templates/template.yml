@@ -41,10 +41,8 @@ fields:
   config:
     date_format: DD/MM/YYYY
 - name: cover_image
+  type: file
   label: Cover image
-  type: textarea
-  hidden: false
-  default: ''
 - name: cover_image_credit
   label: Cover image credit
   type: text
@@ -70,6 +68,3 @@ fields:
   config:
     source:
       type: documents
-- type: file
-  name: image_upload
-  label: Image Upload
