@@ -11,7 +11,6 @@ fields:
       type: simple
     options:
     - post
-
 - name: script
   label: Script
   type: select
@@ -26,10 +25,8 @@ fields:
   hidden: false
   default: ''
 - name: issue_number
-  label: Issue number
-  type: text
-  hidden: false
-  default: ''
+  type: number
+  label: Issue Number
 - name: title
   label: Title
   type: textarea
@@ -37,9 +34,7 @@ fields:
   default: ''
 - name: reading_time
   label: Reading time
-  type: text
-  hidden: false
-  default: ''
+  type: number
 - name: last_updated
   label: Last updated
   type: text
@@ -75,6 +70,3 @@ fields:
   config:
     source:
       type: documents
-- type: number
-  name: number
-  label: Number
