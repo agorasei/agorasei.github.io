@@ -11,11 +11,15 @@ fields:
       type: simple
     options:
     - post
+
 - name: script
   label: Script
-  type: text
-  hidden: false
-  default: ''
+  type: select
+  config:
+    source:
+      type: simple
+    options:
+    - detail
 - name: subject
   label: Subject
   type: text
