@@ -46,6 +46,6 @@ deploy:
   region: us-east-1
   local-dir: _site
   # detect_encoding: true
-  # default_text_charset: 'utf-8'
+  default_text_charset: 'utf-8'
   on:
     branch: master
