@@ -64,3 +64,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- _posts/test-forestry.md
