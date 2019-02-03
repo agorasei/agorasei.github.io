@@ -43,7 +43,6 @@ deploy:
   skip_cleanup: true
   cache_control: "max-age=31536000"
   acl: public_read
-  # endpoint: "agora-sei.s3-website-us-east-1.amazonaws.com"
   region: us-east-1
   local-dir: _site
   on:
