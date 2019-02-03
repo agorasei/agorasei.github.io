@@ -1,2 +1,1 @@
-# agorasei.github.io
-Agora Sei - Website
+# Agora Sei

@@ -1,1 +1,5 @@
 title: Agora Sei
+encoding: UTF-8
+timezone: America/Sao_Paulo
+sass:
+    style: :compressed
