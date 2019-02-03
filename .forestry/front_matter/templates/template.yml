@@ -29,17 +29,17 @@ fields:
   label: Issue Number
 - name: title
   label: Title
-  type: textarea
+  type: text
   hidden: false
   default: ''
 - name: reading_time
   label: Reading time
   type: number
 - name: last_updated
+  type: datetime
   label: Last updated
-  type: text
-  hidden: false
-  default: ''
+  config:
+    date_format: DD/MM/YYYY
 - name: cover_image
   label: Cover image
   type: textarea
@@ -70,13 +70,3 @@ fields:
   config:
     source:
       type: documents
-- type: datetime
-  name: datetime
-  label: Datetime
-  config:
-    time_format: DD
-- type: datetime
-  name: date
-  label: Date
-  config:
-    date_format: DD/MM/YYYY
