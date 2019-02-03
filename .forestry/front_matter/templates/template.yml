@@ -1,0 +1,66 @@
+---
+label: Template
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: script
+  label: Script
+  type: text
+  hidden: false
+  default: ''
+- name: subject
+  label: Subject
+  type: text
+  hidden: false
+  default: ''
+- name: issue_number
+  label: Issue number
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: textarea
+  hidden: false
+  default: ''
+- name: reading_time
+  label: Reading time
+  type: text
+  hidden: false
+  default: ''
+- name: last_updated
+  label: Last updated
+  type: text
+  hidden: false
+  default: ''
+- name: cover_image
+  label: Cover image
+  type: textarea
+  hidden: false
+  default: ''
+- name: cover_image_credit
+  label: Cover image credit
+  type: text
+  hidden: false
+  default: ''
+- name: drops
+  label: Drops
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: content
+    label: Content
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
