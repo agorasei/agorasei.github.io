@@ -1,7 +1,7 @@
 ---
 label: Template
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
@@ -64,3 +64,13 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: select
+  config:
+    source:
+      type: documents
+- type: select
+  config:
+    source:
+      type: simple
+  label: Test
+  name: test
