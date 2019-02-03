@@ -64,7 +64,3 @@ fields:
     default: ''
   hidden: false
   default: ''
-- type: select
-  config:
-    source:
-      type: documents
