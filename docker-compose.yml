@@ -1,0 +1,8 @@
+jekyll:
+    image: jekyll/jekyll:latest
+    container_name: agora_sei
+    command: jekyll serve
+    volumes:
+        - ./:/srv/jekyll
+    ports:
+        - "4000:4000"
