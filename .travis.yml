@@ -33,6 +33,8 @@ cache: bundler # caching bundler gem packages will speed up build
 notifications:
   email: false
 
+exclude: [vendor]
+
 before_deploy: "ls -lh .bundle vendor _site"
 
 deploy:
@@ -40,6 +42,7 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: $AWS_S3_BUCKET
+  skip_cleanup: true
   cache_control: "max-age=31536000"
   acl: public_read
   endpoint: "agora-sei.s3-website-us-east-1.amazonaws.com"
