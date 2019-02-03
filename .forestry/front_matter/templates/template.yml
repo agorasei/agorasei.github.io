@@ -72,5 +72,7 @@ fields:
   config:
     source:
       type: simple
+    options:
+    - post
   label: Test
   name: test
