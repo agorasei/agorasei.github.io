@@ -1,9 +1,0 @@
----
-label: Test
-hide_body: false
-is_partial: false
-fields:
-- type: text
-  name: Name
-  label: Label
-  description: Description
