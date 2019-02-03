@@ -75,3 +75,6 @@ fields:
   config:
     source:
       type: documents
+- type: number
+  name: number
+  label: Number
