@@ -1,6 +1,6 @@
 ---
 layout: post
-script: ''
+script: detail
 title: Teste da Madrugada
 subject: Assunto
 issue_number: 3
