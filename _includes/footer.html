@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script async src="{{ root_url }}/assets/js/application.js"></script>
     <script async src="{{ root_url }}/assets/js/screenfull.min.js"></script>
@@ -10,3 +11,27 @@
     {% endif %}
   </body>
 </html>
+=======
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+      <script src="{{ root_url }}/assets/js/application.js"></script>
+      <script src="{{ root_url }}/assets/js/screenfull.min.js"></script>
+      <script src="{{ root_url }}/assets/js/utils.js"></script>
+      <script src="{{ root_url }}/assets/js/reading-scroll.js"></script>
+      <script src="{{ root_url }}/assets/js/{{ page.script }}.js"></script>
+      {% if page.layout == 'post' %}
+      	<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bfd649d6885c129"></script>
+      {% endif %}
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-317511-27"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-317511-27');
+      </script>
+
+    </body>
+  </html>
+>>>>>>> 02f3d9440ae5c60a33fbab8ab0360b6592bec7a1
