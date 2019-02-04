@@ -6,7 +6,7 @@ title: Caso Flávio Bolsonaro, explicação sobre Direitos Humanos, decreto de p
 subject: Política
 issue_number: 1
 reading_time: 7
-last_updated: 2019-02-04 02:00:00 +0000
+last_updated: 2019-01-21 02:00:00 +0000
 cover_image: "/uploads/pnrm01_ Fabio Rodrigues Pozzebom - Agência Brasil.jpg"
 cover_image_credit: Fabio Rodrigues Pozzebom/Agência Brasil
 drops:
