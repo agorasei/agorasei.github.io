@@ -2,7 +2,7 @@
 layout: post
 script: detail
 title: Teste da Madrugada
-subject: Politica
+subject: Política
 issue_number: 3
 reading_time: 4
 last_updated: 2019-02-04 02:00:00 +0000
