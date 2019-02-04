@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>{% if page.issue_number %}{{ page.title }} | Giro de Notícias {{ page.issue_number }} | {% endif %}Agora Sei</title>
+    <meta charset="utf-8"/>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link href="{{ root_url }}/assets/css/style.css" media="screen" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="{{ root_url }}/assets/images/favicon.png">
 
-    <meta charset="utf-8"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="HandheldFriendly" content="True"/>
     <meta name="MobileOptimized" content="320"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>{% if page.issue_number %}{{ page.title }} | Giro de Notícias {{ page.issue_number }} | {% endif %}Agora Sei</title>
   </head>
