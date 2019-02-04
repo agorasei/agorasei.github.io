@@ -6,7 +6,7 @@ title: Fórum Econômico Mundial, os 100 primeiros dias de governo Bolsonaro, Do
 subject: Política
 issue_number: 2
 reading_time: 8
-last_updated: 2019-01-31 02:00:00 +0000
+last_updated: 2019-01-23 02:00:00 +0000
 cover_image: "/uploads/pnrm02_Centro-de-Congressos_Salao-de-Congressos_Forum_Christian-Clavadetscher.jpg"
 cover_image_credit: Centro de Congressos – Salão de Congressos. Fórum / Christian
   Clavadetscher
