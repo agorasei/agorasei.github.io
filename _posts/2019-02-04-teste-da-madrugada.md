@@ -2,9 +2,9 @@
 layout: post
 script: detail
 title: Teste da Madrugada
-subject: Assunto
+subject: Politica
 issue_number: 3
-reading_time: 6
+reading_time: 4
 last_updated: 2019-02-04 02:00:00 +0000
 cover_image: "/uploads/DSC01485.JPG"
 cover_image_credit: Rafael Braga
