@@ -11,13 +11,13 @@ cover_image: "/uploads/pnrm01_Marcelo-Camargo_Ag-Brasil.jpg"
 cover_image_credit: Marcelo Camargo/Ag. Brasil
 drops:
 - title: Projeto Anticrime
-  content: "Nesta segunda-feira (4) o ministro da Justiça, Sérgio Moro, afirmou que
-    o combate à corrupção é uma das três principais frentes do pacote anticrime. \n\nOs
-    outros dois eixos são: crime organizado e crimes violentos.\nDentre as medidas
-    anticorrupção, o projeto prevê criminalizar o caixa 2; regime fechado para condenados
-    por corrupção passiva, corrupção ativa e peculato e determinar prisão após condenação
-    em 2a instância.\n\nNo domingo, o ministro da Justiça e Segurança Pública, Sérgio
-    Moro, afirmou que as medidas são “bastante objetivas” e “fáceis de serem aplicadas”."
+  content: |-
+    Nesta segunda-feira (4) o ministro da Justiça, Sérgio Moro, afirmou que o combate à corrupção é uma das três principais frentes do pacote anticrime.
+
+    Os outros dois eixos são: crime organizado e crimes violentos.
+    Dentre as medidas anticorrupção, o projeto prevê criminalizar o caixa 2; regime fechado para condenados por corrupção passiva, corrupção ativa e peculato e determinar prisão após condenação em 2a instância.
+
+    No domingo, o ministro da Justiça e Segurança Pública, Sérgio Moro, afirmou que as medidas são “bastante objetivas” e “fáceis de serem aplicadas”.
 - title: Novo presidente do Senado
   content: |-
     Com 42 votos, Davi Alcolumbre (DEM-AP) é o novo presidente da Casa. A votação que deveria ter sido na sexta-feira e foi adiada para o sábado teve muito tumulto e bate- boca entre os senadores. Um dos motivos foi a volta do voto secreto determinado pelo ministro Dias Toffoli, do STF indignando alguns parlamentares que continuaram declarando em voz alta suas escolhas.
