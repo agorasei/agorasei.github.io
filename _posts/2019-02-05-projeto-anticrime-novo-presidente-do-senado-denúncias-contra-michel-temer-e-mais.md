@@ -12,8 +12,6 @@ cover_image_credit: Marcelo Camargo/Ag. Brasil
 drops:
 - title: Projeto Anticrime
   content: |-
-    Teste
-
     Nesta segunda-feira (4) o ministro da Justiça, Sérgio Moro, afirmou que o combate à corrupção é uma das três principais frentes do pacote anticrime.
 
     Os outros dois eixos são: crime organizado e crimes violentos.
