@@ -15,6 +15,7 @@ drops:
     Nesta segunda-feira (4) o ministro da Justiça, Sérgio Moro, afirmou que o combate à corrupção é uma das três principais frentes do pacote anticrime.
 
     Os outros dois eixos são: crime organizado e crimes violentos.
+
     Dentre as medidas anticorrupção, o projeto prevê criminalizar o caixa 2; regime fechado para condenados por corrupção passiva, corrupção ativa e peculato e determinar prisão após condenação em 2a instância.
 
     No domingo, o ministro da Justiça e Segurança Pública, Sérgio Moro, afirmou que as medidas são “bastante objetivas” e “fáceis de serem aplicadas”.
