@@ -5,8 +5,8 @@ title: Tragédia no Flamengo, Flávio Bolsonaro investigado, Lava Jato tem novo 
   e mais.
 subject: Política
 issue_number: 5
-reading_time: ''
-last_updated: ''
+reading_time: 6
+last_updated: 2019-02-09 02:00:00 +0000
 cover_image: "/uploads/pnrm02.jpg"
 cover_image_credit: ''
 drops:
