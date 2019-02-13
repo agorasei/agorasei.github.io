@@ -34,8 +34,10 @@ function initUpdateReadingScroll(index) {
 			progress.setAttribute("aria-valuenow", parseInt(scrolled));
 			progressDeterminate.style.width = scrolled + "%";
 
+		}, {
+			passive: true
 		});
-		
+
 	}
 
 }
