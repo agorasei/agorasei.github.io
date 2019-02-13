@@ -14,13 +14,55 @@
     <meta name="MobileOptimized" content="320"/>
     <meta name="keywords" content="Notícias,Informação,Portal,Conteúdo,Videos">
     <meta name="author" content="Agora Sei">
+
     {% if page.layout == 'post' %}
       <meta name="description" content="{{ page.title }}">
+
+      <!-- open graph -->
+      <meta property="og:locale" content="pt_BR">
+
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+      <meta property="og:title" content="{{ page.title }}">
+      <meta property="og:site_name" content="Agora Sei">
+
+      <meta property="og:description" content="{{ page.title }}">
+
+      <meta property="og:image" content="{{ site.url }}{{ page.cover_image }}">
+      <meta property="og:image:secure_url" content="{{ site.url }}{{ page.cover_image }}" />
+      <meta property="og:image:type" content="image/jpeg">
+      <meta property="og:image:width" content="800">
+      <meta property="og:image:height" content="600">
+      <meta property="og:image:alt" content="{{ page.title }}" />
+
+      <meta property="og:type" content="website">
+
+      <!-- Twitter Cards -->
+      <meta name="twitter:card" content="{{ page.title }}" />
+      <meta name="twitter:site" content="@agorasei_" />
+      <meta name="twitter:creator" content="@agorasei_" />
     {% else %}
       <meta name="description" content="Portal com informações para mantê-lo conectado com o que de mais importate acontece no Brasil">
+
+      <meta name="description" content="{{ page.title }}">
+
+      <!-- open graph -->
+      <meta property="og:locale" content="pt_BR">
+
+      <meta property="og:url" content="{{ site.url }}">
+
+      <meta property="og:title" content="Agora Sei">
+      <meta property="og:site_name" content="Agora Sei">
+
+      <meta property="og:description" content="Portal com informações para mantê-lo conectado com o que de mais importate acontece no Brasil">
+
+      <meta property="og:type" content="website">
+
+      <!-- Twitter Cards -->
+      <meta name="twitter:card" content="Portal com informações para mantê-lo conectado com o que de mais importate acontece no Brasil" />
+      <meta name="twitter:site" content="@agorasei_" />
+      <meta name="twitter:creator" content="@agorasei_" />
     {% endif %}
 
     <title>{% if page.issue_number %}{{ page.title }} | Giro de Notícias {{ page.issue_number }} | {% endif %}Agora Sei</title>
-
-    {{ page.layout }}
   </head>
