@@ -12,9 +12,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="HandheldFriendly" content="True"/>
     <meta name="MobileOptimized" content="320"/>
-    <meta name="description" content="Portal com informações para mantê-lo conectado com o que de mais importate acontece no Brasil">
     <meta name="keywords" content="Notícias,Informação,Portal,Conteúdo,Videos">
     <meta name="author" content="Agora Sei">
+    {% if page.layout == 'post' %}
+      <meta name="description" content="{{ page.title }}">
+    {% else %}
+      <meta name="description" content="Portal com informações para mantê-lo conectado com o que de mais importate acontece no Brasil">
+    {% endif %}
 
     <title>{% if page.issue_number %}{{ page.title }} | Giro de Notícias {{ page.issue_number }} | {% endif %}Agora Sei</title>
+
+    {{ page.layout }}
   </head>
