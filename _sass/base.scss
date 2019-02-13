@@ -20,6 +20,15 @@ html, body {
   background: url("/assets/images/logo-header.png") center no-repeat;
   width: 155px;
   height: 100%;
+
+}
+
+@media (max-width: 600px) {
+  .nav-wrapper .header-logo {
+    background: url("/assets/images/logo-header-small.png") center no-repeat;
+    width: 89px;
+    height: 100%;
+  }
 }
 
 .shortcut {

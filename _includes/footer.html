@@ -10,20 +10,14 @@
       <script async type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bfd649d6885c129"></script>
     {% endif %}
 
-    <!--
-    {{ site.url }}
-    -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-317511-27"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    {% if site.url == 'https://agorasei.com.br' %}
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-317511-27"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-317511-27');
-      </script>
-    {% endif %}
+      gtag('config', 'UA-317511-27');
+    </script>
   </body>
 </html>
