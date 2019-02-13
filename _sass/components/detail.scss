@@ -84,11 +84,11 @@
 			}
 		}
 	}
-	
+
 }
 
 .newsNavigation {
-	
+
 	background: #FFF;
 	height: 50px;
 	width: 100%;
@@ -116,7 +116,7 @@
 			&:focus {
 				color: #000;
 			}
-			
+
 			&.disabled {
 				opacity: .3;
 			}
@@ -126,7 +126,7 @@
 }
 
 .darkOverlay {
-	
+
 	&:before {
 		position: absolute;
 		top: 0;
@@ -293,18 +293,18 @@
 	.progress {
 		bottom: 50px;
 	}
-	
+
 }
 
 @media (min-width: 601px) {
-	
+
 	.accessibilityControls {
 
 		ul {
 			position: fixed;
 			top: 45%;
 			right: 0;
-			
+
 			li a {
 				position: relative;
 			    display: block;
@@ -371,7 +371,7 @@
 			text-align: center;
 		}
 	}
-	
+
 }
 
 // Desktop and large devices
@@ -411,7 +411,7 @@
 	&.grey.lighten-4 {
 		background: #000 !important;
 	}
-	
+
 	header.navbar-fixed {
 		nav,
 		nav.white {
@@ -488,7 +488,7 @@ html.increaseFont {
 /* Fullscreen mode */
 
 .fullscreen {
-	
+
 	.navbar-fixed {
 		height: 0px;
 

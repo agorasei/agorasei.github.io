@@ -4,7 +4,7 @@ script: home
 ---
 
 	<section class="homeNews carousel">
-	
+
 		{% for post in site.posts %}
 		<div class="homeNews-news carousel-item">
 			<div class="col col-news l12">
@@ -16,10 +16,10 @@ script: home
 							<i class="material-icons" aria-label="Publicado em:">date_range</i> {{ post.date | date: "%d/%m/%Y" }}
 							<i class="material-icons" aria-label="Tempo estimado de leitura:">timer</i> {{post.reading_time }} min. de leitura
 						</p>
-						<a href="{{ post.url }}" class="waves-effect waves-light btn blue darken-1">Leia agora</a>
+						<a href="{{ post.url }}" class="waves-effect waves-light btn blue darken-1" style="background-color: #45769f !important">Leia agora</a>
 						<p class="news-photoCredit">Foto: {{ post.cover_image_credit }}</p>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>

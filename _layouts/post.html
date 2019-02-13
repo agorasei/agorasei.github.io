@@ -1,7 +1,7 @@
 {% include header-detail.html %}
 
   <main id="mainContent" class="detailContent">
-    
+
     <section class="drops drops-mobile-carousel">
 
 		<div class="row drop carousel-item">
@@ -22,7 +22,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		{% for drop in page.drops %}
 		<div class="row drop carousel-item">
 			<article class="col m10 offset-m1 l6 offset-l3">
@@ -40,7 +40,9 @@
 
 	<aside class="row hide-on-small-only">
 		<div class="col m10 offset-m1 l6 offset-l3">
-			<a href="{{ site.url }}" class="waves-effect waves-light btn-large blue darken-1 col m12"><i class="material-icons left">chevron_left</i> Retornar para a página inicial</a>
+			<a href="{{ site.url }}" class="waves-effect waves-light btn-large blue darken-1 col m12" style="background-color: #45769f !important">
+        <i class="material-icons left">chevron_left</i> Retornar para a página inicial
+      </a>
 		</div>
 	</aside>
 

@@ -12,6 +12,16 @@ html, body {
   color: $text-color;
 }
 
+.nav-wrapper {
+  background-color: #45769f;
+}
+
+.nav-wrapper .header-logo {
+  background: url("/assets/images/logo-header.png") center no-repeat;
+  width: 155px;
+  height: 100%;
+}
+
 .shortcut {
   display: block;
   margin-top: -41px;

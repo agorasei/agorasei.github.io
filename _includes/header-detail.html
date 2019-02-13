@@ -11,18 +11,26 @@
         <nav class=" blue darken-1 hide-on-small-only">
           <div class="nav-wrapper">
             <ul id="nav-mobile" class="left">
-              <li><a href="{{ site.url }}"><i class="material-icons" title="Voltar para a página inicial">arrow_back</i></a></li>
+              <li><a href="{{ site.url }}">
+                <i class="material-icons" title="Voltar para a página inicial">arrow_back</i>
+              </a>
+            </li>
             </ul>
-            <a href="{{ site.url }}" class="brand-logo center">Agora Sei</a>
+            <a href="{{ site.url }}" class="brand-logo header-logo center"></a>
           </div>
         </nav>
 
         <nav class="white hide-on-med-and-up">
           <div class="nav-wrapper">
             <ul id="nav-mobile" class="left">
-              <li><a class="blue-grey-text text-darken-4" href="/index.html"><i class="material-icons" title="Voltar para a página inicial">arrow_back</i></a></li>
               <li>
-                <a href="{{ site.url }}" class="blue-grey-text text-darken-4 nav-mobile-logo">Agora Sei</a>
+                <a class="blue-grey-text text-darken-4" href="{{ site.url }}">
+                  <i class="material-icons" title="Voltar para a página inicial">arrow_back</i>
+                </a>
+              </li>
+              <li>
+                <!-- <a href="{{ site.url }}" class="blue-grey-text text-darken-4 nav-mobile-logo">Agora Sei</a> -->
+                <a href="{{ site.url }}" class="brand-logo header-logo left" style="margin-left:10%"></a>
               </li>
             </ul>
             <ul id="nav-mobile" class="right">
@@ -35,4 +43,6 @@
 
       </header>
 
-      <a href="#" class="btn-floating btn waves-effect waves-light white hide-on-med-and-up exitFullScreen" title="Sair do modo tela cheia"><i class="material-icons black-text">fullscreen_exit</i></a>
+      <a href="#" class="btn-floating btn waves-effect waves-light white hide-on-med-and-up exitFullScreen" title="Sair do modo tela cheia">
+        <i class="material-icons black-text">fullscreen_exit</i>
+      </a>
