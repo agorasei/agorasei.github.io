@@ -12,12 +12,12 @@ function newsNavigation(carousel) {
   previous.addEventListener("click", function(e) {
     e.preventDefault();
     carouselGoTo(carousel, "prev");
-  });
+  }, {passive: true});
 
   next.addEventListener("click", function(e) {
     e.preventDefault();
     carouselGoTo(carousel, "next");
-  });
+  }, {passive: true});
 
 }
 
@@ -114,7 +114,7 @@ function initParallaxDetail(el, createImage) {
 }
 
 function destroyParallaxDetail(el) {
-  
+
   el.classList.remove("parallax-container");
 
 }
@@ -135,7 +135,7 @@ function initFullScreen() {
 
 function toggleFullScreen() {
 
-  var doc       = window.document, 
+  var doc       = window.document,
       docEl     = doc.documentElement,
       body      = document.body;
 

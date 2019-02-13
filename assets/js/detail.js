@@ -1,44 +1,44 @@
 document.addEventListener("DOMContentLoaded", function(e) {
-		
+
 	pageSetup();
 
 	document.querySelector(".highContrastMode").addEventListener("click", function(e) {
 		e.preventDefault();
 		a11yToggleHighContrast();
-	});
+	}, {passive: true});
 
 	document.querySelector(".highContrastMode-small").addEventListener("click", function(e) {
 		e.preventDefault();
 		a11yToggleHighContrast();
-	});
+	}, {passive: true});
 
 	document.querySelector(".increaseFontMode").addEventListener("click", function(e) {
 		e.preventDefault();
 		a11yToggleIncreaseFont();
-	});
+	}, {passive: true});
 
 	document.querySelector(".increaseFontMode-small").addEventListener("click", function(e) {
 		e.preventDefault();
 		a11yToggleIncreaseFont();
-	});
+	}, {passive: true});
 
 	document.querySelector(".fullScreenMode").addEventListener("click", function(e) {
 		e.preventDefault();
 		toggleFullScreen();
-	});
+	}, {passive: true});
 
 	document.querySelector(".exitFullScreen").addEventListener("click", function(e) {
 		e.preventDefault();
 		toggleFullScreen();
-	});
+	}, {passive: true});
 
-});
+}, {passive: true});
 
 window.addEventListener("resize", function(e) {
 
 	pageSetup();
 
-});
+}, {passive: true});
 
 function pageSetup() {
 

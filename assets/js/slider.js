@@ -3,7 +3,7 @@ function initSlider() {
 				current 			= document.getElementById("newsNavigation-current"),
 				previous 			= document.querySelector(".newsNavigation-previous a"),
 				next 					= document.querySelector(".newsNavigation-next a");
-	
+
 	var		sliderLength 	= sliderItems.length,
 				even 					= sliderLength / 2,
 				odd 					= (sliderLength + 1) / 2;
@@ -13,7 +13,7 @@ function initSlider() {
 
 	sliderItems.forEach(function(el, i, arr) {
 		el.addEventListener("click", function(e) {
-			
+
 			e.preventDefault();
 			e.stopPropagation();
 
@@ -21,13 +21,13 @@ function initSlider() {
 
 			let position = (((70 * i) + (10 * (i - 1))) * -1);
 		  sliderContainer.style.transform = 'translateX(' + position + 'vw)';
-		  
+
 		  el.classList.remove('prev', 'next');
-		  
+
 		  sliderItems.forEach(function(el, i, arr) {
 		  	el.classList.remove('prev', 'active', 'next');
 		  });
-		  
+
 		  el.classList.add('active');
 
 		  current.innerText = (i + 1);
@@ -45,7 +45,7 @@ function initSlider() {
 		  }
 
 		  initUpdateReadingScroll(i);
-		});
+		}, {passive: true});
 	});
 
 	// Keyboard nav
@@ -58,7 +58,7 @@ function initSlider() {
 	  else if (e.keyCode == 39) {
 	    active.nextElementSibling.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
 	  }
-	});
+	}, {passive: true});
 }
 
 function initNewsNavigation() {
@@ -79,16 +79,16 @@ function initNewsNavigation() {
 		if (el) {
 	  	el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
 		}
-	});
+	}, {passive: true});
 
 	next.addEventListener("click", function(e) {
 		e.preventDefault();
-		
+
 		let el = document.querySelector('.active').nextElementSibling;
 
 		if (el) {
 	  	el.dispatchEvent( new MouseEvent("click", {bubbles: false}) );
 		}
-	});
+	}, {passive: true});
 
 }
