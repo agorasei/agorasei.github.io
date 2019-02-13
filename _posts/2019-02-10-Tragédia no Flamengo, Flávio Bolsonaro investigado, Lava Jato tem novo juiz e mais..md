@@ -2,7 +2,7 @@
 layout: post
 script: detail
 title: Tragédia no Flamengo, Flávio Bolsonaro investigado, Lava Jato tem novo juiz
-  e mais.
+  e mais notícias.
 subject: Política
 issue_number: 5
 reading_time: 6
