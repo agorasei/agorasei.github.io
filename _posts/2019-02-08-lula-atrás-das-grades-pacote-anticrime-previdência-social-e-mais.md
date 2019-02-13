@@ -6,7 +6,7 @@ subject: Política
 issue_number: 4
 reading_time: 5
 last_updated: 2019-02-08 17:04:00 +0000
-cover_image: "/uploads/pnrm02.jpg"
+cover_image: "/uploads/Bg-Aleatorio-1.png"
 cover_image_credit: ''
 drops:
 - title: Lula atrás das grades

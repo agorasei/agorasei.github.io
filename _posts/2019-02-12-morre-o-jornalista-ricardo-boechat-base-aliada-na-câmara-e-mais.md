@@ -1,12 +1,12 @@
 ---
 layout: post
 script: detail
-title: Morre o jornalista Ricardo Boechat, Base aliada na Câmara e mais.
+title: Morre o jornalista Ricardo Boechat, Base aliada na Câmara e mais notícias.
 subject: Política
 issue_number: 6
 reading_time: 3
 last_updated: 2019-02-11 02:00:00 +0000
-cover_image: "/uploads/pnrm02.jpg"
+cover_image: "/uploads/Bg-Aleatorio-1.png"
 cover_image_credit: ''
 drops:
 - title: Morre o jornalista Ricardo Boechat
