@@ -1,5 +1,8 @@
 title: Agora Sei
 encoding: UTF-8
 timezone: America/Sao_Paulo
+url: "https://agorasei.com.br"
 sass:
-    style: :compressed
+  style: :compressed
+plugins:
+  - jekyll-sitemap
