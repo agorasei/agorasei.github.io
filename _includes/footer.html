@@ -14,8 +14,10 @@
     <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker
-          .register('/assets/js/sw.js')
-          .then(function() { console.log("Service Worker Registered"); });
+          .register('/assets/js/sw.js', {scope: 'agorasei.com.br'})
+          .then(function(registration) {
+            console.log('ServiceWorker registration successful with scope: ', registration)
+          });
         }
     </script>
 
