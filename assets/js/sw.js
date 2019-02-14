@@ -9,10 +9,12 @@ self.addEventListener('install', function(e) {
        '/index.html',
        '/assets/css/style.css',
        '/assets/js/application.js',
-       '/assets/js/screenfull.min.js',
-       '/assets/js/utils.js',
+       '/assets/js/detail.js',
+       '/assets/js/home.js',
        '/assets/js/reading-scroll.js',
-       '/assets/js/{{ page.script }}.js'
+       '/assets/js/screenfull.min.js',
+       '/assets/js/slider.js',
+       '/assets/js/utils.js'
      ]);
    })
  );
