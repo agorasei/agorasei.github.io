@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8"/>
 
+    <link rel="canonical" href="{{ root_url }}" />
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
@@ -18,6 +20,11 @@
     <meta name="keywords" content="Notícias,Informação,Portal,Conteúdo,Videos" />
     <meta name="author" content="Agora Sei" />
     <meta name="theme-color" content="#45769F" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ root_url }}/assets/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ root_url }}/assets/images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ root_url }}/assets/images/favicons/favicon-32x32.png">
 
     {% if page.layout == 'post' %}
       <meta name="description" content="{{ page.title }}">
