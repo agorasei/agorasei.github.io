@@ -1,8 +1,8 @@
 ---
 layout: post
 script: detail
-title: Criminalização da Homofobia, Bolsonaro recebe alta, da Lava Jato para a educação
-  e mais notícias.
+title: Criminalização da Homofobia, Bolsonaro recebe alta, dinheiro da Lava Jato para
+  a educação e mais notícias.
 subject: Política
 issue_number: 7
 reading_time: 5
