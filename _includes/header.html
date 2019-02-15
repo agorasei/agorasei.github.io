@@ -7,9 +7,23 @@
         <nav class="blue darken-1">
           <div class="nav-wrapper">
             <a href="{{ site.url }}" aria-label="voltar para o início" class="brand-logo center">Agora Sei</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+            <form action="//duckduckgo.com/" method="get" target="_blank" class="">
+              <div class="input-field">
+                <input type="hidden" name="sites" value="agorasei.com.br" required />
+                <input type="hidden" value="br-pt" name="kl">
+                <input type="hidden" value="news" name="iar">
+                <input id="search" type="search" name="q" required />
+                <label class="label-icon" for="search">
+                  <i class="material-icons">search</i>
+                </label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+
+            <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="#"><i class="material-icons">search</i></a></li>
-            </ul>
+            </ul> -->
           </div>
         </nav>
       </header>
