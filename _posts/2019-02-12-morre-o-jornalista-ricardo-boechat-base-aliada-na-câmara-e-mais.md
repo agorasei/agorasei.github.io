@@ -38,5 +38,6 @@ drops:
     na sexta-feira (8) junto com o ministro Sérgio Moro, caberá ao juiz de cada caso
     a decisão de conceder ou não o indulto.
 date: 2019-02-12 05:12:02 +0000
+keywords: ricardo boechat, câmara
 
 ---

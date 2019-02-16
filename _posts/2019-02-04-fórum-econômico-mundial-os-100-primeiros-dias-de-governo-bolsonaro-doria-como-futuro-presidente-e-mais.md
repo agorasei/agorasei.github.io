@@ -56,5 +56,6 @@ drops:
     rodovias, ferrovias, portos e aeroportos. Dória também tem participado de alguns
     eventos da comitiva de Bolsonaro.
 date: 2019-02-04 04:31:05 +0000
+keywords: fórum econômico mundial, bolsonaro, dória
 
 ---

@@ -55,5 +55,6 @@ drops:
     apura pagamentos ilegais em contratos para a construção de um submarino da força
     militar brasileira.
 date: 2019-02-08 17:16:43 +0000
+keywords: lula, anticrime, previdência social
 
 ---

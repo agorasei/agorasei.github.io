@@ -47,5 +47,6 @@ drops:
     da Vale. Segundo nota divulgada pela pasta, a ministra Tereza Cristina também
     pediu que os agricultores sejam atendidos pelo seguro rural.
 date: 2019-02-10 04:17:05 +0000
+keywords: flamengo,flávio bolsonaro,lava jato
 
 ---
