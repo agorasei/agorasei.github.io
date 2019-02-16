@@ -56,5 +56,6 @@ drops:
     de Renan Calheiros à Presidência do Senado. Renan ainda não é pré-candidato, mas
     é cogitado para entrar na disputa.
 date: 2019-02-04 04:07:10 +0000
+keywords: flávio bolsonaro, direitos humanos,posse de armas
 
 ---
