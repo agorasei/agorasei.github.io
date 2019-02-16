@@ -29,6 +29,11 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: keywords
+  label: Keywords
+  type: text
+  hidden: false
+  default: ''
 - name: issue_number
   type: number
   label: Issue Number
