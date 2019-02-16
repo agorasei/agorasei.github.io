@@ -64,5 +64,6 @@ drops:
     Rodrigo Janot, ainda durante o mandato de Temer, mas na época foram barradas pela
     Câmara.
 date: 2019-02-05 03:35:40 +0000
+keywords: anticrime, senado, michel temer
 
 ---
