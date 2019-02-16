@@ -7,7 +7,7 @@ issue_number: 8
 reading_time: 6
 last_updated: 2019-02-15 22:00:00 +0000
 cover_image: "/uploads/Bg-Aleatorio-1.png"
-cover_image_credit: ''
+cover_image_credit: Agora Sei
 drops:
 - title: Previdência
   content: O secretário de Previdência e Trabalho do Ministério da Economia, Rogério
@@ -63,5 +63,6 @@ drops:
     Sérgio Cabral Filho, mas foi solto uma semana depois graças a um habeas corpus.
     O motivo da nova prisão ainda não foi divulgado.
 date: 2019-02-15 23:26:55 +0000
+keywords: ''
 
 ---
