@@ -63,6 +63,6 @@ drops:
     Sérgio Cabral Filho, mas foi solto uma semana depois graças a um habeas corpus.
     O motivo da nova prisão ainda não foi divulgado.
 date: 2019-02-15 23:26:55 +0000
-keywords: ''
+keywords: previdência,lava jato
 
 ---
