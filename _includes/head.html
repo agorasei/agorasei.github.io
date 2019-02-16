@@ -15,7 +15,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
-    <meta name="keywords" content="Notícias,Informação,Portal,Conteúdo,Videos" />
     <meta name="author" content="Agora Sei" />
     <meta name="theme-color" content="#45769F" />
     <meta name="robots" content="index, follow" />
@@ -29,6 +28,7 @@
 
     {% if page.layout == 'post' %}
       <meta name="description" content="{{ page.title }}">
+      <meta name="keywords" content="{{ page.keywords }}" />
 
       <!-- open graph -->
       <meta property="og:locale" content="pt_BR">
@@ -55,6 +55,7 @@
       <meta name="twitter:creator" content="@agorasei_" />
     {% else %}
       <meta name="description" content="Portal com informações para mantê-lo conectado com o que de mais importate acontece no Brasil">
+      <meta name="keywords" content="Notícias,Informação,Portal,Conteúdo,Videos" />
 
       <!-- open graph -->
       <meta property="og:locale" content="pt_BR">
