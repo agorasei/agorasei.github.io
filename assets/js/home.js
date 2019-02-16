@@ -35,4 +35,10 @@ document.addEventListener("DOMContentLoaded", function(e) {
     changeBackground(el, "cover");
 	});
 
+	const search = document.querySelector('#search');
+
+	search.addEventListener("blur", function (e) {
+		e.target.value = null;
+	});
+
 });
