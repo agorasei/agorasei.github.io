@@ -58,5 +58,6 @@ drops:
     (PEC), a reforma da Previdência e projetos que fazem alterações na legislação.
     O senador Jorginho Mello (PR- SC) foi escolhido para ocupar a vice-presidência.
 date: 2019-02-13 21:43:01 +0000
+keywords: homofobia,bolsonaro,lava jato
 
 ---
