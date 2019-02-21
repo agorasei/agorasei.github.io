@@ -5,7 +5,7 @@ script: home
 
 	<section class="homeNews carousel">
 
-		{% for post in site.posts limit:20 %}
+		{% for post in site.posts limit:6 %}
 		<div class="homeNews-news carousel-item">
 			<div class="col col-news l12">
 				<div class="card news valign-wrapper center-align grey darken-4" data-image="{{ post.cover_image }}">
