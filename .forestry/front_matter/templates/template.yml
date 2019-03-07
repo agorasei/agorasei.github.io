@@ -1,7 +1,6 @@
 ---
 label: Template
 hide_body: false
-is_partial: false
 fields:
 - name: layout
   label: Layout
@@ -74,6 +73,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- _posts/declaração-polêmica-de-jair-bolsonaro-economia-latina-possível-adiamento-da-reforma-da-previdência-e-mais-notícias.md
 - _posts/2019-02-28-executivos-da-oas-confirmam-pagamento-de-propina-joice-hasselmann-líder-do-governo-no-congresso-novo-presidente-do-banco-central-e-mais-notícias.md
 - _posts/suprimentos-incendiados-na-venezuela-ruralista-no-ministério-da-agricultura-previdência-para-militares-e-mais-notícias.md
 - _posts/2019-02-26-venezuela-depoimento-de-antônio-palocci-psdb-arquiva-pedidos-para-expulsão-e-mais-notícias.md
