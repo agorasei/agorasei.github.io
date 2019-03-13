@@ -7,6 +7,12 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: all
+  layout: archive
+
 compress_html:
   clippings: all
   comments: [""]
