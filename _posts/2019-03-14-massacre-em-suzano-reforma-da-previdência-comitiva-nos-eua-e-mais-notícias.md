@@ -53,7 +53,7 @@ drops:
     Ernesto Araújo, Tereza Cristina e Ricardo Salles. Na visita a Washington, Bolsonaro
     será recebido na Casa Branca pelo presidente norte-americano Donald Trump.'
 - title: ''
-  content: 'Por: **Daniele Almeida**'
+  content: 'Por: Daniele Almeida'
 date: 2019-03-14 12:30:23 +0000
 
 ---
