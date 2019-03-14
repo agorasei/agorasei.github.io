@@ -4,9 +4,9 @@ script: detail
 title: Caso Marielle, Bolsonaro critica jornalista, Fake News nas eleições e mais
   notícias.
 subject: Política
-keywords: Marielle Franco, PM, Bolsonaro, Estadão, Apreensão, Armas, amamentação,
-  público, fake, news, eleições, Paraguai, Brasil, Venezuela, Guaidó, Petrobras, Lava
-  Jato
+keywords: Marielle, Franco, Marielle Franco, PM, Bolsonaro, Estadão, Apreensão, Armas,
+  amamentação, público, fake, news, eleições, Paraguai, Brasil, Venezuela, Guaidó,
+  Petrobras, Lava Jato
 issue_number: 16
 reading_time: 4
 last_updated: 2019-03-13 00:00:00 +0000
