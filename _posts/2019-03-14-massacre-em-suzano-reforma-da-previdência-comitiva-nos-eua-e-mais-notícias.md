@@ -24,7 +24,7 @@ drops:
     a convicção de que a reforma da Previdência será aprovada ainda neste semestre.
     Questionado sobre o prazo apertado, Bolsonaro disse que a aprovação no Senado
     será mais fácil, porque ali há muitos ex-governadores, que, nas palavras do presidente,
-    sambem mais do que ninguém a importância da reforma da Previdência.
+    sabem mais do que ninguém a importância da reforma da Previdência.
 - title: Concurso público
   content: 'Novos critérios para a abertura de vagas por concurso público estão por
     vir. O secretário-adjunto de Desburocratização, Gestão e Governo Digital do Ministério
