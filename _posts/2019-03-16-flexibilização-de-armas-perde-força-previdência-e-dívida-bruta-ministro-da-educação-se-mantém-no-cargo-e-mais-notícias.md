@@ -48,6 +48,8 @@ drops:
     disse que o presidente Jair Bolsonaro não irá demitir o ministro da Educação,
     Ricardo Vélez Rodriguez. Existe uma pressão, de ministros da ala militar, para
     que Vélez seja mandado embora do governo, pois causa polêmicas desnecessárias.
+- title: ''
+  content: Por Daniele Almeida
 date: 2019-03-16 01:37:50 +0000
 
 ---
