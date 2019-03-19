@@ -2,7 +2,7 @@
 layout: post
 script: detail
 title: Decreto dispensa visto de visita para turistas, câmara homenageia Marielle
-  Franco, abertura de 18 inquérito sobre propina na Petrobras e mais notícias.
+  Franco, abertura de 18 inquéritos sobre propina na Petrobras e mais notícias.
 subject: Política
 keywords: 'Brasil, visto, Jair, Bolsonaro, decreto, dispensa, turista, viajem, Embratur,
   Marielle, Franco, câmara, deputados, PSOL, Anderson, Gomes, solenidade, Trump, visita,
