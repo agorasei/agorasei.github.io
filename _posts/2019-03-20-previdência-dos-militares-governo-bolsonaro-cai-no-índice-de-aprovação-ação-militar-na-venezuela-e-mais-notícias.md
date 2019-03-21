@@ -43,7 +43,7 @@ drops:
   content: Jaime Quintana, afirmou que recusou o convite vindo do presidente do Chile,
     Sebastian Piñeira, para participar do almoço que será oferecido ao presidente
     Jair Bolsonaro. Jaime Quintana disse que não poderá participar por convicção política
-    e também porque tem uma agenda regional já programada. O presidente Piñera nos
+    e também porque tem uma agenda regional já programada. "O presidente Piñera nos
     convidou para almoçar em homenagem a Bolsonaro e como Mesa (que comanda o Senado)
     decidimos não ir. Minha convicção não me permite homenagear aqueles que se manifestam
     contra minorias sexuais, mulheres e indígenas", escreveu em sua rede social.
