@@ -1,7 +1,7 @@
 ---
 layout: post
 script: detail
-title: Comemoração da ditadura, PEC do Orçamento, Michel Temer réus mais notícias
+title: Comemoração da ditadura, PEC do Orçamento, Michel Temer réus mais notícias.
 subject: Política
 keywords: 'ditadura, comemoração, Jair, Bolsonaro, ministerio, defesa, 55, anos, golpe,
   militar, proibido, Mackenzie, Universidade, Presbiteriana, suspender, PEC, Orçamento,
