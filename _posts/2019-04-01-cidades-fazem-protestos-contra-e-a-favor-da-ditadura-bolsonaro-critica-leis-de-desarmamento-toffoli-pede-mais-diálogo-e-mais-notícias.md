@@ -27,8 +27,8 @@ drops:
   content: Em viagem oficial a Israel, o presidente Jair Bolsonaro publicou em sua
     conta pessoal do Instagram, uma foto onde segura um fuzil e defende a “liberdade”
     dos cidadãos se armarem, criticando as leis de desarmamento. O presidente afirmou
-    na internet que “o que torna uma arma nociva depende % das intenções de quem a
-    possui”.
+    na internet que “o que torna uma arma nociva depende 100% das intenções de quem
+    a possui”.
 - title: Vice-presidente comenta vídeo de apoio a ditadura
   content: Hamilton Mourão declarou nesta segunda-feira, que o Planalto só divulgou
     o vídeo que nega ter ocorrido um golpe militar em 1964, porque o presidente Jair
