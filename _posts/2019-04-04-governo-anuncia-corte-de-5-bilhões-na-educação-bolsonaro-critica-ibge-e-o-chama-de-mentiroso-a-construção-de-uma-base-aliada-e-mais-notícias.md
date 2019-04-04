@@ -2,7 +2,7 @@
 layout: post
 script: detail
 title: Governo anuncia corte de 5 bilhões na educação, Bolsonaro critica IBGE e o
-  chama de mentiroso, a construção de uma base aliada e mais notícias.
+  chama de mentiroso, os esforços para construção de uma base aliada e mais notícias.
 subject: Política
 keywords: governo, corte, bilhões, educação, federal, decreto, reduzidos, Bolsonaro,
   IBGE, crítica, desemprego, Israel, visita, oficial, Palestina, Israel, Hamas, faixa,
