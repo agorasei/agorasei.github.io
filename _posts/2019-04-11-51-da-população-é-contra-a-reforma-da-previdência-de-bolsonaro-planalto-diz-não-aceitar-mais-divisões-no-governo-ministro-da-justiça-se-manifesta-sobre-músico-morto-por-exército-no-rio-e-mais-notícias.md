@@ -46,9 +46,8 @@ drops:
     Câmara, o projeto segue agora para a sanção do presidente Jair Bolsonaro.
 - title: Ministro da Justiça se manifesta sobre músico morto por Exército no Rio
   content: Em um programa de entrevista, o ministro da Justiça Sérgio Moro se manifestou
-    sobre o caso do músico morto acidentalmente pelo Exército no Rio. Sérgio Moro
-    classificou como “incidente bastante trágico” e que “ Lamentavelmente, esses fatos
-    podem ocorrer.”
+    sobre o caso do músico morto pelo Exército no Rio. Sérgio Moro classificou como
+    “incidente bastante trágico” e que “ Lamentavelmente, esses fatos podem ocorrer.”
 - title: Quase cinco mil obras do PAC estão paralisadas
   content: Estima-se que um total de 4.699 obras que integravam o Programa de Aceleração
     do Crescimento (PAC) estavam paralisadas desde junho de 2018. Segundo o levantamento
