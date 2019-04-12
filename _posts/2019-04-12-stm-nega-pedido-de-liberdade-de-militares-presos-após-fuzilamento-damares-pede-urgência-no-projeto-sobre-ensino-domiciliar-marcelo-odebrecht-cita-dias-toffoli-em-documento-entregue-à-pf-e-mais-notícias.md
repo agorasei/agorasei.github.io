@@ -1,9 +1,9 @@
 ---
 layout: post
 script: detail
-title: STM nega pedido de liberdade de militares presos após fuzilamento, Damares
-  pede urgência no projeto sobre Ensino Domiciliar, Marcelo Odebrecht cita Dias Toffoli
-  em documento entregue à PF e mais notícias.
+title: Liberdade de militares presos após fuzilamento é negada, Damares pede urgência
+  no projeto sobre Ensino Domiciliar, Odebrecht cita Dias Toffoli em documento entregue
+  à PF e mais notícias.
 subject: Política
 keywords: 'STM, ministro, superior, tribunal, militar, exército, rejeitou, liberdade,
   músico, Rio, Janeiro, Damares, urgência, projeto, Ensino, Domiciliar, governo, Brasil, '
