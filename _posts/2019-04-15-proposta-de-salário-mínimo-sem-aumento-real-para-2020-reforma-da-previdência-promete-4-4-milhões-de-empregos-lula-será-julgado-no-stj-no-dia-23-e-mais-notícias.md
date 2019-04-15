@@ -1,8 +1,8 @@
 ---
 layout: post
 script: detail
-title: Proposta de salário mínimo sem aumento real para 2020, Reforma da Previdência
-  promete 4,4 milhões de empregos, Lula será julgado no STJ no dia 23 e mais notícias.
+title: Salário mínimo sem aumento real para 2020, Reforma da Previdência promete 4,4
+  milhões de empregos, Lula será julgado no dia 23 e mais notícias.
 subject: Política
 keywords: Governo, salário, minimo, aumento, 2020, reforma, previdência, empregos,
   milhões, ministros, preço, combustível, Onyx, Lorenzoni, deputados, derrubar, decretos,
