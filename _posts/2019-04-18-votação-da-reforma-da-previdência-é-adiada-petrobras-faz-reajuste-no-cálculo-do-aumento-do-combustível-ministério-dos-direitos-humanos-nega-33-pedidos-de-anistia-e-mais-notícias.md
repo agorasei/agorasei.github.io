@@ -2,8 +2,7 @@
 layout: post
 script: detail
 title: Votação da Reforma da Previdência é adiada, Petrobras faz reajuste no cálculo
-  do aumento do combustível, Ministério dos Direitos Humanos nega 33 pedidos de Anistia
-  e mais notícias.
+  do aumento do combustível, Direitos Humanos nega 33 pedidos de Anistia e mais notícias.
 subject: Política
 keywords: 'reforma, previdência, adiada, CCJ, Francischini, Marcelo, Freitas, PSL,
   Petrobras, mudança, calculo, aumento, combustível, reajuste, Jair, Bolsonaro, estatal,
