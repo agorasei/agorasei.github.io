@@ -40,13 +40,12 @@ drops:
 - title: Governo quer instituir meritocracia no serviço público
   content: 'O governo Jair Bolsonaro pretende encerrar o período de reajuste linear
     para os servidores públicos e instituir, o que o ministro da Economia Paulo Guedes,
-    chamou de meritocracia. Ainda não foi decidido como será feito, mas uma das uma
-    das ideias é repetir o que já acontece em empresas privadas e lojas do comércio:
-    na saída da loja, o cliente é instado a fazer sua avaliação; numa máquina, ele
-    aperta o botão verde se sair satisfeito; amarelo se o atendimento foi regular
-    ou vermelho se não gostou do atendimento. O ministro Paulo Guedes disse que o
-    funcionário público precisa entender que não é uma autoridade diante do cidadão
-    que paga impostos.'
+    chamou de meritocracia. Ainda não foi decidido como será feito, mas uma das  ideias
+    é repetir o que já acontece em empresas privadas e lojas do comércio: na saída
+    da loja, o cliente é instado a fazer sua avaliação; numa máquina, ele aperta o
+    botão verde se sair satisfeito; amarelo se o atendimento foi regular ou vermelho
+    se não gostou do atendimento. O ministro Paulo Guedes disse que o funcionário
+    público precisa entender que não é uma autoridade diante do cidadão que paga impostos.'
 - title: Moro prorroga atuação da Força Nacional em Moçambique
   content: O ministro da Justiça, Sérgio Moro, prorrogou por mais 10 dias a permanência
     da Força Nacional em Moçambique para atuar na operação de ajuda humanitária ao
