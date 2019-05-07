@@ -2,8 +2,7 @@
 layout: post
 script: detail
 title: Alunos protestam contra corte de verbas, Bolsonaro chama reforma da Previdência
-  de 1° passo para liberdade econômica, Lula pretende pedir progressão de pena e mais
-  notícias.
+  de 1° passo para liberdade econômica e mais notícias.
 subject: Política
 keywords: alunos, institutos, federais, protesto, corte, verba, colégio, militar,
   rio, de, janeiro, Bolsonaro, prazo, titulo, eleitor, termina, TSE, reforma, previdência,
