@@ -9,9 +9,8 @@ plugins:
   - jekyll-feed
   - jekyll-archives
 
-jekyll-archives:
-  enabled: all
-  layout: archive
+# jekyll-archives:
+#   enabled: all
 
 compress_html:
   clippings: all
