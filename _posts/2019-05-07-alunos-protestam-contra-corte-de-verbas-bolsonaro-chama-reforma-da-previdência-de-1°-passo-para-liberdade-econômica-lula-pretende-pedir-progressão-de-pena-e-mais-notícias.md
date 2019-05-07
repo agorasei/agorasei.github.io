@@ -11,7 +11,7 @@ keywords: alunos, institutos, federais, protesto, corte, verba, colégio, milita
   presos, premio, câmara, congresso, premiação, cancelada, Nova, York, Lula, progressão,
   regime, pena, semiaberto
 issue_number: 38
-reading_time: 
+reading_time: 5
 last_updated: 2019-05-06 03:00:00 +0000
 cover_image: "/uploads/Bg-Aleatorio-1.png"
 cover_image_credit: Agora Sei
