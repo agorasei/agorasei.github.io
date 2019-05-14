@@ -2,7 +2,7 @@
 layout: post
 script: detail
 title: Mudanças no Imposto de Renda, presidentes da Câmara e do Senado encontram investidores
-  em Nova York, Sérgio Moro fala sobre indicação ao STF e mais notícias.
+  em Nova York e mais notícias.
 subject: Política
 keywords: mudança, imposto, renda, reforma, tributaria, Nova, York, presidente, câmara,
   senado, investidores, moro, nega, condição, ministério, justiça, STF, mourão, mensagem,
