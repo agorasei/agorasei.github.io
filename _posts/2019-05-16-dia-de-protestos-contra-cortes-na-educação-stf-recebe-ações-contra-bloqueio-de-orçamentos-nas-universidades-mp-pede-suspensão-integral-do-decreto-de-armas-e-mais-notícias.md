@@ -11,7 +11,7 @@ keywords: protestos, cortes, educação, universidades, Ministério, STF, duas, 
   procuradores, disputar, vaga, procurador, geral, república, Raquel, Dodge
 issue_number: 44
 reading_time: 5
-last_updated: 2019-05-15 03:00:00 +0000
+last_updated: 2019-05-14 03:00:00 +0000
 cover_image: "/uploads/Bg-Aleatorio-1.png"
 cover_image_credit: Agora Sei
 drops:
