@@ -10,7 +10,7 @@ keywords: Relator, previdência, texto, alternativo, Reforma, Bolsonaro, Brasil,
   News, Apoiadores, manifestação, pro
 issue_number: 46
 reading_time: 5
-last_updated: 2019-05-20 03:00:00 +0000
+last_updated: 2019-05-19 03:00:00 +0000
 cover_image: "/uploads/Bg-Aleatorio-1.png"
 cover_image_credit: Agora Sei
 drops:
