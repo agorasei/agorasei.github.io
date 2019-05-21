@@ -1,9 +1,9 @@
 ---
 layout: post
 script: detail
-title: Relator da Previdência diz que não há texto alternativo para a Reforma, BNDES
-  afasta chefe responsável por gerir recursos do Fundo Amazônia, TSE aponta dificuldade
-  para combater conteúdo falso no WhatsApp e mais notícias.
+title: Relator da Previdência diz não haver texto alternativo para a reforma, responsável
+  por gerir recursos do Fundo Amazônia é afastado, TSE e a dificuldade para combater
+  conteúdo falso e mais notícias.
 subject: Política
 keywords: Relator, previdência, texto, alternativo, Reforma, Bolsonaro, Brasil, classe,
   política, pensão, vitalícia, microcefalia, zika, vírus, BNDES, afasta, chefe, responsável,
