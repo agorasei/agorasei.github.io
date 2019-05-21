@@ -1,9 +1,8 @@
 ---
 layout: post
 script: detail
-title: Relator da Previdência diz não haver texto alternativo para a reforma, responsável
-  por gerir recursos do Fundo Amazônia é afastado, TSE e a dificuldade para combater
-  conteúdo falso e mais notícias.
+title: Relator da Previdência diz não haver texto alternativo para a reforma, TSE
+  e a dificuldade para combater conteúdo falso e mais notícias.
 subject: Política
 keywords: Relator, previdência, texto, alternativo, Reforma, Bolsonaro, Brasil, classe,
   política, pensão, vitalícia, microcefalia, zika, vírus, BNDES, afasta, chefe, responsável,
