@@ -2,8 +2,8 @@
 layout: post
 script: detail
 title: Exército vai definir as armas que os cidadãos vão poder comprar, entidades
-  criticam decreto de porte de arma, CCJ aprova em 1º turno projeto que criminaliza
-  a homofobia e mais notícias.
+  criticam decreto de porte de arma, CCJ aprova em 1º turno criminalização da homofobia
+  e mais notícias.
 subject: Política
 keywords: Exercito, definir, armas, cidadãos, comprar, decreto, entidades, criticaram,
   porte, armas, CCJ, aprova, primeiro, turno, criminalização, criminaliza, homofobia,
