@@ -2,8 +2,8 @@
 layout: post
 script: detail
 title: Paulo Guedes pode renunciar se reforma da Previdência não sair, STM libera
-  militares que fuzilaram carro no Rio, R$ 3, 57 bilhões em bens do PSB, MDB, políticos
-  e empresas são bloqueados e mais notícias.
+  militares que fuzilaram carro no Rio, R$ 3, 57 bilhões do PSB, MDB, políticos e
+  empresas são bloqueados e mais notícias.
 subject: Política
 keywords: ''
 issue_number: 48
