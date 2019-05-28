@@ -1,6 +1,6 @@
 ---
-layout: ''
-script: ''
+layout: post
+script: detail
 title: Cidades fazem ato em apoio ao governo Bolsonaro, STF avalia dividir fundo da
   Petrobras para áreas além da Educação e mais notícias.
 subject: Política
