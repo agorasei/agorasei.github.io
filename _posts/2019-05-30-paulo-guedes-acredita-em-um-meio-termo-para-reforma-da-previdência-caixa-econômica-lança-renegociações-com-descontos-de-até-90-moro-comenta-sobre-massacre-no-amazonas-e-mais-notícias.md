@@ -2,8 +2,7 @@
 layout: post
 script: detail
 title: Paulo Guedes acredita em um ‘meio-termo’ para reforma da Previdência, Caixa
-  Econômica lança renegociações com descontos de até 90%, Moro comenta sobre massacre
-  no Amazonas e mais notícias.
+  Econômica lança renegociações com descontos de até 90% e mais notícias.
 subject: Política
 keywords: paulo, Guedes, confiante, reforma, previdência, encontro, três, poderes,
   manifestações, CCJ, aprova, convocação, Onyx, Lorenzoni, decreto, armas, força,
