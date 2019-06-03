@@ -1,7 +1,7 @@
 ---
 layout: post
 script: detail
-title: 'Governo fala em mais cortes sem MP sobre fraudes na Previdência, reforma diz
+title: 'Governo avalia que pode ser obrigado a fazer mais cortes, comissão pretende
   manter aposentadoria especial para professor, Ibope: 73% são contra flexibilização
   do porte de armas e mais notícias'
 subject: Política
