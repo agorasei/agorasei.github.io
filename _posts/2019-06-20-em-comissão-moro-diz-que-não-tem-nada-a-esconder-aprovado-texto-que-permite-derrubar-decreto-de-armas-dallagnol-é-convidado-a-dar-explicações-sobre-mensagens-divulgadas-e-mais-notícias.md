@@ -1,9 +1,9 @@
 ---
 layout: post
 script: detail
-title: Em comissão, Moro diz que não tem nada a esconder, aprovado texto que permite
-  derrubar decreto de armas,  Dallagnol é convidado  a dar explicações sobre mensagens
-  divulgadas e mais notícias.
+title: Moro diz que não tem nada a esconder, aprovado texto que permite derrubar decreto
+  de armas,  Dallagnol é convidado  a dar explicações sobre mensagens divulgadas e
+  mais notícias.
 subject: Política
 keywords: comissão, senado, Sergio, Moro, lava, jato, texto, derrubar, decreto, armas,
   previdência, debate, bolsonaro, MP, demarcações, terras, indígenas, ministério,
