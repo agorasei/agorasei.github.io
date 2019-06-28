@@ -1,9 +1,8 @@
 ---
 layout: post
 script: detail
-title: Paulo Guedes busca reaproximação com Maia para evitar atrasos, Bolsonaro diz
-  que Alemanha tem muito a aprender com o Brasil, Índice de aprovação do governo empata
-  com o de desaprovação e mais notícias.
+title: Paulo Guedes busca reaproximação com Maia para evitar atrasos, Índice de aprovação
+  do governo empata com o de desaprovação e mais notícias.
 subject: Política
 keywords: evitar, atrasos, Guedes, Maia, aproximação, MPF, apura, laranjas, PSL, campanha,
   Brasil, 32, mil, empregos, Governo, empata, aprovação, desaprovação, Ibope, Alemanha,
